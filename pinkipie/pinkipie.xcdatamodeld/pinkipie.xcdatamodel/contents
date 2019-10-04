@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14903" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DayTotalCalories" representedClassName="DayTotalCalories" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="total_cal" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="DayTotalNutriens" representedClassName="DayTotalNutriens" syncable="YES" codeGenerationType="class">
+        <attribute name="carbs" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="fat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="proteins" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="FoodSearch" representedClassName="FoodSearch" syncable="YES" codeGenerationType="class">
+        <attribute name="foodname" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="DayTotalCalories" positionX="-36" positionY="9" width="128" height="73"/>
+        <element name="DayTotalNutriens" positionX="0" positionY="63" width="128" height="88"/>
+        <element name="FoodSearch" positionX="27" positionY="81" width="128" height="58"/>
+    </elements>
 </model>

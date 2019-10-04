@@ -16,6 +16,16 @@
 		3B3F8C0B2344C97A00377880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3F8C092344C97A00377880 /* LaunchScreen.storyboard */; };
 		3B3F8C162344C97A00377880 /* pinkipieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F8C152344C97A00377880 /* pinkipieTests.swift */; };
 		3B3F8C212344C97A00377880 /* pinkipieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F8C202344C97A00377880 /* pinkipieUITests.swift */; };
+		F2CC83FC2347BDA30015B115 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CC83FB2347BDA30015B115 /* CoreDataStack.swift */; };
+		F2CC84032347BDC10015B115 /* DayTotalNutriens+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CC83FD2347BDC10015B115 /* DayTotalNutriens+CoreDataClass.swift */; };
+		F2CC84042347BDC10015B115 /* DayTotalNutriens+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CC83FE2347BDC10015B115 /* DayTotalNutriens+CoreDataProperties.swift */; };
+		F2CC84052347BDC10015B115 /* FoodSearch+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CC83FF2347BDC10015B115 /* FoodSearch+CoreDataClass.swift */; };
+		F2CC84062347BDC10015B115 /* FoodSearch+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CC84002347BDC10015B115 /* FoodSearch+CoreDataProperties.swift */; };
+		F2CC84072347BDC10015B115 /* DayTotalCalories+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CC84012347BDC10015B115 /* DayTotalCalories+CoreDataClass.swift */; };
+		F2CC84082347BDC10015B115 /* DayTotalCalories+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CC84022347BDC10015B115 /* DayTotalCalories+CoreDataProperties.swift */; };
+		F2CC840A2347BDDA0015B115 /* FoodStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CC84092347BDDA0015B115 /* FoodStorage.swift */; };
+		F2CC840C2347BDFE0015B115 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CC840B2347BDFE0015B115 /* ApiRequest.swift */; };
+		F2CC840E2347BE230015B115 /* FoodInfoStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CC840D2347BE230015B115 /* FoodInfoStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,16 @@
 		3B3F8C1C2344C97A00377880 /* pinkipieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pinkipieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3F8C202344C97A00377880 /* pinkipieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinkipieUITests.swift; sourceTree = "<group>"; };
 		3B3F8C222344C97A00377880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2CC83FB2347BDA30015B115 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		F2CC83FD2347BDC10015B115 /* DayTotalNutriens+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayTotalNutriens+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F2CC83FE2347BDC10015B115 /* DayTotalNutriens+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayTotalNutriens+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F2CC83FF2347BDC10015B115 /* FoodSearch+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodSearch+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F2CC84002347BDC10015B115 /* FoodSearch+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodSearch+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F2CC84012347BDC10015B115 /* DayTotalCalories+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayTotalCalories+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F2CC84022347BDC10015B115 /* DayTotalCalories+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayTotalCalories+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F2CC84092347BDDA0015B115 /* FoodStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStorage.swift; sourceTree = "<group>"; };
+		F2CC840B2347BDFE0015B115 /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		F2CC840D2347BE230015B115 /* FoodInfoStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodInfoStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +121,8 @@
 		3B3F8BFA2344C97900377880 /* pinkipie */ = {
 			isa = PBXGroup;
 			children = (
+				F2CC83F82347BD700015B115 /* CoreData */,
+				F2CC84092347BDDA0015B115 /* FoodStorage.swift */,
 				3B3F8BFB2344C97900377880 /* AppDelegate.swift */,
 				3B3F8BFD2344C97900377880 /* SceneDelegate.swift */,
 				3B3F8C022344C97900377880 /* ContentView.swift */,
@@ -109,6 +131,8 @@
 				3B3F8C0C2344C97A00377880 /* Info.plist */,
 				3B3F8BFF2344C97900377880 /* pinkipie.xcdatamodeld */,
 				3B3F8C062344C97A00377880 /* Preview Content */,
+				F2CC840B2347BDFE0015B115 /* ApiRequest.swift */,
+				F2CC840D2347BE230015B115 /* FoodInfoStruct.swift */,
 			);
 			path = pinkipie;
 			sourceTree = "<group>";
@@ -137,6 +161,28 @@
 				3B3F8C222344C97A00377880 /* Info.plist */,
 			);
 			path = pinkipieUITests;
+			sourceTree = "<group>";
+		};
+		F2CC83F82347BD700015B115 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F2CC83FA2347BD900015B115 /* ModelObject */,
+				F2CC83FB2347BDA30015B115 /* CoreDataStack.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		F2CC83FA2347BD900015B115 /* ModelObject */ = {
+			isa = PBXGroup;
+			children = (
+				F2CC83FD2347BDC10015B115 /* DayTotalNutriens+CoreDataClass.swift */,
+				F2CC83FE2347BDC10015B115 /* DayTotalNutriens+CoreDataProperties.swift */,
+				F2CC83FF2347BDC10015B115 /* FoodSearch+CoreDataClass.swift */,
+				F2CC84002347BDC10015B115 /* FoodSearch+CoreDataProperties.swift */,
+				F2CC84012347BDC10015B115 /* DayTotalCalories+CoreDataClass.swift */,
+				F2CC84022347BDC10015B115 /* DayTotalCalories+CoreDataProperties.swift */,
+			);
+			path = ModelObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,10 +316,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2CC840C2347BDFE0015B115 /* ApiRequest.swift in Sources */,
+				F2CC83FC2347BDA30015B115 /* CoreDataStack.swift in Sources */,
+				F2CC840A2347BDDA0015B115 /* FoodStorage.swift in Sources */,
 				3B3F8BFC2344C97900377880 /* AppDelegate.swift in Sources */,
+				F2CC84062347BDC10015B115 /* FoodSearch+CoreDataProperties.swift in Sources */,
+				F2CC84082347BDC10015B115 /* DayTotalCalories+CoreDataProperties.swift in Sources */,
+				F2CC840E2347BE230015B115 /* FoodInfoStruct.swift in Sources */,
+				F2CC84072347BDC10015B115 /* DayTotalCalories+CoreDataClass.swift in Sources */,
 				3B3F8BFE2344C97900377880 /* SceneDelegate.swift in Sources */,
+				F2CC84052347BDC10015B115 /* FoodSearch+CoreDataClass.swift in Sources */,
 				3B3F8C032344C97900377880 /* ContentView.swift in Sources */,
 				3B3F8C012344C97900377880 /* pinkipie.xcdatamodeld in Sources */,
+				F2CC84042347BDC10015B115 /* DayTotalNutriens+CoreDataProperties.swift in Sources */,
+				F2CC84032347BDC10015B115 /* DayTotalNutriens+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
