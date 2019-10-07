@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "6fcda99af1fcb8b087598fb344241814"
+build_time: [1570452076, 210350000]
+inputs:
+  "/Users/veronikaromanko/Desktop/ios/NewVersionPinkiePie/NewVersionPinkiePie/ViewController.swift": [1570452073, 229158098]
+  "/Users/veronikaromanko/Desktop/ios/NewVersionPinkiePie/NewVersionPinkiePie/ProfileDataStore.swift": [1570442714, 488889606]
+  "/Users/veronikaromanko/Desktop/ios/NewVersionPinkiePie/NewVersionPinkiePie/HealthKitSetupAssistant.swift": [1570442714, 503239497]
+  "/Users/veronikaromanko/Desktop/ios/NewVersionPinkiePie/NewVersionPinkiePie/MainViewController.swift": [1570444260, 323399018]
+  "/Users/veronikaromanko/Desktop/ios/NewVersionPinkiePie/NewVersionPinkiePie/AppDelegate.swift": [1570441842, 20984463]
+  "/Users/veronikaromanko/Desktop/ios/NewVersionPinkiePie/Build/Intermediates/NewVersionPinkiePie.build/Debug-iphonesimulator/NewVersionPinkiePie.build/DerivedSources/CoreDataGenerated/NewVersionPinkiePie/Person+CoreDataClass.swift": [1570452076, 18644923]
+  "/Users/veronikaromanko/Desktop/ios/NewVersionPinkiePie/Build/Intermediates/NewVersionPinkiePie.build/Debug-iphonesimulator/NewVersionPinkiePie.build/DerivedSources/CoreDataGenerated/NewVersionPinkiePie/Person+CoreDataProperties.swift": [1570452076, 25743496]
+  "/Users/veronikaromanko/Desktop/ios/NewVersionPinkiePie/Build/Intermediates/NewVersionPinkiePie.build/Debug-iphonesimulator/NewVersionPinkiePie.build/DerivedSources/CoreDataGenerated/NewVersionPinkiePie/NewVersionPinkiePie+CoreDataModel.swift": [1570452076, 6171724]
