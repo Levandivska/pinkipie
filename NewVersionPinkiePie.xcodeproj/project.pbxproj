@@ -21,6 +21,14 @@
 		334D199A234B44C200A6BBCD /* ProfileDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334D1999234B44C200A6BBCD /* ProfileDataStore.swift */; };
 		334D199C234B44DC00A6BBCD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334D199B234B44DC00A6BBCD /* MainViewController.swift */; };
 		334D19A0234B455800A6BBCD /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334D199F234B455800A6BBCD /* HealthKit.framework */; };
+		F2405897234E5A2A00EEDF82 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2405896234E5A2A00EEDF82 /* CoreDataStack.swift */; };
+		F240589E234E5AC100EEDF82 /* DayCalories+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2405898234E5AC100EEDF82 /* DayCalories+CoreDataClass.swift */; };
+		F240589F234E5AC100EEDF82 /* DayCalories+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2405899234E5AC100EEDF82 /* DayCalories+CoreDataProperties.swift */; };
+		F24058A0234E5AC100EEDF82 /* DayNutriens+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F240589A234E5AC100EEDF82 /* DayNutriens+CoreDataClass.swift */; };
+		F24058A1234E5AC100EEDF82 /* DayNutriens+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F240589B234E5AC100EEDF82 /* DayNutriens+CoreDataProperties.swift */; };
+		F24058A2234E5AC100EEDF82 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F240589C234E5AC100EEDF82 /* Person+CoreDataClass.swift */; };
+		F24058A3234E5AC100EEDF82 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F240589D234E5AC100EEDF82 /* Person+CoreDataProperties.swift */; };
+		F24058A5234E5BF300EEDF82 /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24058A4234E5BF300EEDF82 /* FoodData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +49,14 @@
 		334D199B234B44DC00A6BBCD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		334D199D234B455800A6BBCD /* NewVersionPinkiePie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewVersionPinkiePie.entitlements; sourceTree = "<group>"; };
 		334D199F234B455800A6BBCD /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		F2405896234E5A2A00EEDF82 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		F2405898234E5AC100EEDF82 /* DayCalories+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayCalories+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F2405899234E5AC100EEDF82 /* DayCalories+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayCalories+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F240589A234E5AC100EEDF82 /* DayNutriens+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayNutriens+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F240589B234E5AC100EEDF82 /* DayNutriens+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayNutriens+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F240589C234E5AC100EEDF82 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F240589D234E5AC100EEDF82 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F24058A4234E5BF300EEDF82 /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +91,7 @@
 		334D1981234B41F200A6BBCD /* NewVersionPinkiePie */ = {
 			isa = PBXGroup;
 			children = (
+				F2405894234E5A0E00EEDF82 /* CoreData */,
 				334D199D234B455800A6BBCD /* NewVersionPinkiePie.entitlements */,
 				334D1982234B41F200A6BBCD /* AppDelegate.swift */,
 				334D1984234B41F200A6BBCD /* ViewController.swift */,
@@ -90,6 +107,7 @@
 				334D1989234B41F200A6BBCD /* NewVersionPinkiePie.xcdatamodeld */,
 				0F2CB435234CB27A006E79C9 /* SearchFoodViewController.swift */,
 				0F2CB439234E4B30006E79C9 /* CalculateKcalViewController.swift */,
+				F24058A4234E5BF300EEDF82 /* FoodData.swift */,
 			);
 			path = NewVersionPinkiePie;
 			sourceTree = "<group>";
@@ -100,6 +118,28 @@
 				334D199F234B455800A6BBCD /* HealthKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2405894234E5A0E00EEDF82 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F2405895234E5A1800EEDF82 /* ModelObject */,
+				F2405896234E5A2A00EEDF82 /* CoreDataStack.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		F2405895234E5A1800EEDF82 /* ModelObject */ = {
+			isa = PBXGroup;
+			children = (
+				F2405898234E5AC100EEDF82 /* DayCalories+CoreDataClass.swift */,
+				F2405899234E5AC100EEDF82 /* DayCalories+CoreDataProperties.swift */,
+				F240589A234E5AC100EEDF82 /* DayNutriens+CoreDataClass.swift */,
+				F240589B234E5AC100EEDF82 /* DayNutriens+CoreDataProperties.swift */,
+				F240589C234E5AC100EEDF82 /* Person+CoreDataClass.swift */,
+				F240589D234E5AC100EEDF82 /* Person+CoreDataProperties.swift */,
+			);
+			path = ModelObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,16 +218,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F24058A2234E5AC100EEDF82 /* Person+CoreDataClass.swift in Sources */,
 				0F2CB433234CACA5006E79C9 /* Food.swift in Sources */,
 				0F2CB434234CACA5006E79C9 /* FoodCell.swift in Sources */,
+				F24058A5234E5BF300EEDF82 /* FoodData.swift in Sources */,
 				0F2CB436234CB27A006E79C9 /* SearchFoodViewController.swift in Sources */,
 				334D1985234B41F200A6BBCD /* ViewController.swift in Sources */,
+				F24058A3234E5AC100EEDF82 /* Person+CoreDataProperties.swift in Sources */,
 				334D199A234B44C200A6BBCD /* ProfileDataStore.swift in Sources */,
 				334D1998234B449C00A6BBCD /* HealthKitSetupAssistant.swift in Sources */,
+				F240589E234E5AC100EEDF82 /* DayCalories+CoreDataClass.swift in Sources */,
+				F24058A1234E5AC100EEDF82 /* DayNutriens+CoreDataProperties.swift in Sources */,
+				F2405897234E5A2A00EEDF82 /* CoreDataStack.swift in Sources */,
 				334D199C234B44DC00A6BBCD /* MainViewController.swift in Sources */,
 				334D198B234B41F200A6BBCD /* NewVersionPinkiePie.xcdatamodeld in Sources */,
 				334D1983234B41F200A6BBCD /* AppDelegate.swift in Sources */,
 				0F2CB43A234E4B30006E79C9 /* CalculateKcalViewController.swift in Sources */,
+				F24058A0234E5AC100EEDF82 /* DayNutriens+CoreDataClass.swift in Sources */,
+				F240589F234E5AC100EEDF82 /* DayCalories+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
