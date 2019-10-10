@@ -45,12 +45,11 @@ class FoodData{
         
         var calories: [Double] = []
         let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "DayCalories")
-        fetchRequest.predicate = NSPredicate(format: "date = %@", date_var)
         fetchRequest.returnsObjectsAsFaults = false
         
         do{
             let result = try context.fetch(fetchRequest)
-            for data in result as! [NSManagedObject] {
+            for data in result{
                 calories.append(data.value(forKey: "total_cal") as! Double)
             }
         }catch {

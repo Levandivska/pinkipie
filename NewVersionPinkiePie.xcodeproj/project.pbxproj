@@ -104,7 +104,6 @@
 				334D198C234B41F700A6BBCD /* Assets.xcassets */,
 				334D198E234B41F700A6BBCD /* LaunchScreen.storyboard */,
 				334D1991234B41F700A6BBCD /* Info.plist */,
-				334D1989234B41F200A6BBCD /* NewVersionPinkiePie.xcdatamodeld */,
 				0F2CB435234CB27A006E79C9 /* SearchFoodViewController.swift */,
 				0F2CB439234E4B30006E79C9 /* CalculateKcalViewController.swift */,
 				F24058A4234E5BF300EEDF82 /* FoodData.swift */,
@@ -123,8 +122,9 @@
 		F2405894234E5A0E00EEDF82 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				F2405895234E5A1800EEDF82 /* ModelObject */,
 				F2405896234E5A2A00EEDF82 /* CoreDataStack.swift */,
+				334D1989234B41F200A6BBCD /* NewVersionPinkiePie.xcdatamodeld */,
+				F2405895234E5A1800EEDF82 /* ModelObject */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
