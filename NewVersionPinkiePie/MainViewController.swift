@@ -14,8 +14,12 @@ class MainViewController: UIViewController {
 
     let searchController = UISearchController(searchResultsController: nil)
     
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "PinkiePie kcal tracker", style: .plain, target: nil, action: nil)
         
         ResultView.layer.cornerRadius = ResultView.frame.size.width/2
         ResultView.clipsToBounds = true
@@ -31,14 +35,13 @@ class MainViewController: UIViewController {
     }
     
     @IBAction func buttonClick(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "SerachFoodSegue", sender: self)
     }
     
     
     func AddKcal() {
         // find addkcal Using currentMass, currentFoodName
         
-        let addkcal = 100
+        _ = 100
         //
         
         //        kcalleft.text = String(Int(kcalleft.text!)! - addkcal)
