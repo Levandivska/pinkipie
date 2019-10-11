@@ -14,15 +14,15 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		rARvIuW9WqyPR29l6MpJPV8rTjQ=
+		gW2MAERRuibfYmafrIK4zlHoBpU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/1Zn-5i-CzB-view-fBe-aB-YKO.nib</key>
 		<data>
-		i+ROs2ZA9oI7DKakRnreOWt/wD4=
+		HgZxQDNDhg9hpABJlMHSzLlhSHs=
 		</data>
 		<key>Base.lproj/Main.storyboardc/A3m-6B-MlT-view-gew-vE-hRe.nib</key>
 		<data>
-		11v5TU6CsRstsc4Yi6Gag7g0NTg=
+		9mMPXYEHaU3nOi0lMGEl/CWXxjw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -30,35 +30,47 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/SearchFoodViewController.nib</key>
 		<data>
-		9+cAe/puepJ4BMpqaMGdvAgbouo=
+		FmhAfAihGK+PJaRJHVplQx4dvFk=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-HFS-Fy-jlH.nib</key>
 		<data>
-		29/i+ljdBRErQhc0UGk8y+c5XMA=
+		jMGHXyOgIRIdDXY9us5r6DBh7cg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-A3m-6B-MlT.nib</key>
 		<data>
-		q3mC1uIJK5uPHA6ZenI9hvXVU4I=
+		SGu2qSjY+SoqYKcBLjxgYg8Lbdo=
 		</data>
 		<key>Base.lproj/Main.storyboardc/ViewController.nib</key>
 		<data>
-		LOarF1Kk7Jf9elrQfoNcaCcPm7E=
+		LqCUf2PpnuSnGxAYddC8/+nI34s=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Woc-EW-P9w-view-SAc-BE-f0I.nib</key>
 		<data>
-		b+G5V/10kFMubId1GqN5Lst20vY=
+		vlF47jwsb+YXwklBar9B2fz5iaU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/haQ-tS-JAU-view-6oP-Xh-vfx.nib</key>
 		<data>
-		zdyZeXxSz7pcD24lhfG1f/iYtmQ=
+		5UBOgYHxWisoMRh6tJN92SayLro=
 		</data>
 		<key>Base.lproj/Main.storyboardc/qrL-Mz-gWe-view-6Fv-fA-LCs.nib</key>
 		<data>
-		SUCGCppk3WInLweFmHoL3EakcJk=
+		vD9DF5QzhJIEcB7+6hXNWG8xw3g=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		ND0PA9Wu4tbN6VzclKT39WQcGUE=
+		</data>
+		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
+		<data>
+		Fb7Ij8E7SApLAKq0NEWmYrpztnA=
+		</data>
+		<key>LaunchScreen.storyboardc/Info.plist</key>
+		<data>
+		n2t8gsDpfE6XkhG31p7IQJRxTxU=
+		</data>
+		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
+		<data>
+		rQk4QxJrLW4bRuiuFTJ3RO6CFJw=
 		</data>
 		<key>NewVersionPinkiePie.momd/NewVersionPinkiePie.mom</key>
 		<data>
@@ -101,21 +113,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			elioSOFcBq1B58lDGl/IOW7tnmhq6XYfch1N8TyKRuI=
+			vk7M+6mB8eRFFKJx9nluOKLZ/zIYy6QZbU4J/sYPDjw=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/1Zn-5i-CzB-view-fBe-aB-YKO.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RRTZHLPtVWfycj5KU0TpclDnR5St144wJ/AjJ8r5iDE=
+			TBs6wAtF75ZdhSVYk0lotykBQg1CGxDoMC+krH3ijrE=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/A3m-6B-MlT-view-gew-vE-hRe.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rthy8lbaxm67Q9AhVviKqnQU6yt5tWLCLX9itYC+RGU=
+			kKSbDIvxz+KliZYOD4bdBMjSon2OlXUBnEgMdEnhwK4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -129,49 +141,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BGCWCTwoYBxjR7iktYAPN7KypHMf8spF8HhFwmOPGP0=
+			tw7FMxpEN6YblTcvXQ+kXiJADQhN4i4b8R2UrjJ8iQ8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-HFS-Fy-jlH.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mRiBq2kZ1IYZzjrUGXZ8OqaFAgzGEzgAouD6cwKWWJ4=
+			M8Aht+8QZnNSDWdYfRVn+3Up+6+tu+sp9i/rlCRMIIs=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-A3m-6B-MlT.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lx5RlNEbpAx8lkl+i2TS1mpHP1TLy8Uj1feTDk3JUcI=
+			YBSBVqZrCAmjJPSyDO14FrbBTchTiLJARLwryL1PjYc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/ViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EE1q4h6dg9oGBaw4Zp77xVeFs3FJWTGXqr/yhdoBobM=
+			VqYq0Auag6gxPTVPCRLliIXrTK4shm1y1/V01qp1Okg=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Woc-EW-P9w-view-SAc-BE-f0I.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A90Z1JeG4I7+NcUbEKx3xpY4vykdzmjFOW3hvPyRz2g=
+			cVQ2d3AZugEFTPDc23Y8GK4/JP1DlPf+izheJwx9UMc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/haQ-tS-JAU-view-6oP-Xh-vfx.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bWXIsu8c3t1TK30kmRbfusHjwBJTGbjhdfAAfbd1D6A=
+			dk7YQpKN8Vu+xhWrh7kaOQzWbZsMKvhnY03Ir7TgNp0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/qrL-Mz-gWe-view-6Fv-fA-LCs.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wdm+nmxuNxoXkF6aHd6Ue9Y0dhReVz4E9DDD+2gr2Kw=
+			aQwV8GldTfnZxsG5fwNHYn68SHwNZGxAgu0fLZjcndk=
+			</data>
+		</dict>
+		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Jrqc2JLcAAeOuRVds6JBs+2YknGiPWIOV01XW/62xts=
+			</data>
+		</dict>
+		<key>LaunchScreen.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HyVdXMU7Ux4/KalAao30mpWOK/lEPT4gvYN09wf31cg=
+			</data>
+		</dict>
+		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6BvMTsAjuwyiSmMSSm1wpFDM+zuuUQ6hrbG5K2DQaoc=
 			</data>
 		</dict>
 		<key>NewVersionPinkiePie.momd/NewVersionPinkiePie.mom</key>
