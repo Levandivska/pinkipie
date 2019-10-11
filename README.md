@@ -11,3 +11,8 @@
 
 
 https://developer.edamam.com/ - АПІшка для бази з їжею, кількість калорій до кожного продукту, також є рекомендації по дієтам та аллергіям і т.д.
+
+## Development
+
+- Install Pods `sudo gem install cocoapods` (requires gem)
+- Run `pod install`
