@@ -21,16 +21,49 @@ class CalculateKcalViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    @IBAction func finishButtonClick(_ sender: UIButton){
-        //textField.text!
-        self.performSegue(withIdentifier: "FinishSeuge", sender: self)
+    func alertMessage(_ title:String, _ message:String)
+    {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
+        
+        //CREATING ON BUTTON
+        alert.addAction(UIAlertAction(title: "Yes", style: UIAlertAction.Style.default, handler: { (action) in
+            alert.dismiss(animated: true, completion: nil)
+            print ("Ok")
+        }))
+        
+        self.present(alert, animated: true, completion: nil)
     }
-
+    
+    @IBAction func finishButtonClick(_ sender: UIButton){
+        let mainView = MainViewController(nibName: "MainViewController", bundle: nil)
+        
+        if let curm = Int(textField.text!){
+            mainView.currentMass = curm
+            mainView.AddKcal()
+            //            self.navigationController?.pop
+            self.performSegue(withIdentifier: "FinishSeuge", sender: self)
+        }
+        else{
+            alertMessage("Error", "Incorrect data, Enter the number of grams.")
+            print("fail data")
+        }
+        
+    }
+    
     @IBAction func addMoreButtonClick(_ sender: UIButton){
         //textField.text!
-        self.performSegue(withIdentifier: "AddMoreSeuge", sender: self)
-
+        let mainView = MainViewController(nibName: "MainViewController", bundle: nil)
+        
+        if let curm = Int(textField.text!){
+            mainView.currentMass = curm
+            mainView.AddKcal()
+            
+            self.performSegue(withIdentifier: "AddMoreSeuge", sender: self)
+            //            self.navigationController?.pop
+        }
+        else{
+            alertMessage("Error", "Incorrect data, Enter the number of grams.")
+            print("fail data")
+        }
     }
 }
-
-

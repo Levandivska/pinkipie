@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F2CB433234CACA5006E79C9 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2CB431234CACA5006E79C9 /* Food.swift */; };
 		0F2CB434234CACA5006E79C9 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2CB432234CACA5006E79C9 /* FoodCell.swift */; };
 		0F2CB436234CB27A006E79C9 /* SearchFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2CB435234CB27A006E79C9 /* SearchFoodViewController.swift */; };
 		0F2CB43A234E4B30006E79C9 /* CalculateKcalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2CB439234E4B30006E79C9 /* CalculateKcalViewController.swift */; };
@@ -35,7 +34,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0F2CB431234CACA5006E79C9 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		0F2CB432234CACA5006E79C9 /* FoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
 		0F2CB435234CB27A006E79C9 /* SearchFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFoodViewController.swift; sourceTree = "<group>"; };
 		0F2CB439234E4B30006E79C9 /* CalculateKcalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateKcalViewController.swift; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 				334D1982234B41F200A6BBCD /* AppDelegate.swift */,
 				334D1984234B41F200A6BBCD /* ViewController.swift */,
 				334D1997234B449C00A6BBCD /* HealthKitSetupAssistant.swift */,
-				0F2CB431234CACA5006E79C9 /* Food.swift */,
 				0F2CB432234CACA5006E79C9 /* FoodCell.swift */,
 				334D1999234B44C200A6BBCD /* ProfileDataStore.swift */,
 				334D199B234B44DC00A6BBCD /* MainViewController.swift */,
@@ -285,7 +282,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F24058A2234E5AC100EEDF82 /* Person+CoreDataClass.swift in Sources */,
-				0F2CB433234CACA5006E79C9 /* Food.swift in Sources */,
 				0F2CB434234CACA5006E79C9 /* FoodCell.swift in Sources */,
 				F24058A5234E5BF300EEDF82 /* FoodData.swift in Sources */,
 				0F2CB436234CB27A006E79C9 /* SearchFoodViewController.swift in Sources */,
