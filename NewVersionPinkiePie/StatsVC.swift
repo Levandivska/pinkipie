@@ -12,15 +12,12 @@ import Charts
 class StatsVC: UIViewController, ChartViewDelegate {
 
     @IBOutlet weak var chart: LineChartView!
-    @IBOutlet weak var textView: UILabel!
         
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "Line Chart 1"
+        self.title = "Stats"
         
-        let foodData = FoodData()
-        textView.text = String(format:"%f", foodData.getCaloriesbyDate("06-06-2019"))
         chart.delegate = self
         
         chart.chartDescription?.enabled = false
@@ -38,24 +35,10 @@ class StatsVC: UIViewController, ChartViewDelegate {
         chart.xAxis.gridLineDashLengths = [10, 10]
         chart.xAxis.gridLineDashPhase = 0
         
-        let ll1 = ChartLimitLine(limit: 150, label: "Upper Limit")
-        ll1.lineWidth = 4
-        ll1.lineDashLengths = [5, 5]
-        ll1.labelPosition = .topRight
-        ll1.valueFont = .systemFont(ofSize: 10)
-        
-        let ll2 = ChartLimitLine(limit: -30, label: "Lower Limit")
-        ll2.lineWidth = 4
-        ll2.lineDashLengths = [5,5]
-        ll2.labelPosition = .bottomRight
-        ll2.valueFont = .systemFont(ofSize: 10)
-        
         let leftAxis = chart.leftAxis
         leftAxis.removeAllLimitLines()
-        leftAxis.addLimitLine(ll1)
-        leftAxis.addLimitLine(ll2)
-        leftAxis.axisMaximum = 200
-        leftAxis.axisMinimum = -50
+        leftAxis.axisMaximum = 2800
+        leftAxis.axisMinimum = 0
         leftAxis.gridLineDashLengths = [5, 5]
         leftAxis.drawLimitLinesBehindDataEnabled = true
         
@@ -100,7 +83,7 @@ class StatsVC: UIViewController, ChartViewDelegate {
             xAxis += 1
         }
         
-        let set1 = LineChartDataSet(entries: values, label: "")
+        let set1 = LineChartDataSet(entries: values, label: "Calories")
         set1.drawIconsEnabled = false
         
         set1.lineDashLengths = [5, 2.5]
