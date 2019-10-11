@@ -13,13 +13,14 @@ class StatsVC: UIViewController, ChartViewDelegate {
 
     @IBOutlet weak var chart: LineChartView!
     @IBOutlet weak var textView: UILabel!
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.title = "Line Chart 1"
         
-        textView.text = "Summary"
+        let foodData = FoodData()
+        textView.text = String(format:"%f", foodData.getCaloriesbyDate("06-06-2019"))
         chart.delegate = self
         
         chart.chartDescription?.enabled = false
@@ -59,9 +60,7 @@ class StatsVC: UIViewController, ChartViewDelegate {
         leftAxis.drawLimitLinesBehindDataEnabled = true
         
         chart.rightAxis.enabled = false
-        
-        //[_chart.viewPortHandler setMaximumScaleY: 2.f];
-        //[_chart.viewPortHandler setMaximumScaleX: 2.f];
+
         let marker = BalloonMarker(color: UIColor(white: 180/255, alpha: 1),
                                    font: .systemFont(ofSize: 12),
                                    textColor: .white,
@@ -76,25 +75,32 @@ class StatsVC: UIViewController, ChartViewDelegate {
         chart.animate(xAxisDuration: 2.5)
 
         self.updateChartData()
-        // Do any additional setup after loading the view.
     }
     
     func updateChartData() {
-//        if self.shouldHideData {
-//            chart.data = nil
-//            return
-//        }
-        
         self.setDataCount(Int(45), range: UInt32(100))
     }
     
     func setDataCount(_ count: Int, range: UInt32) {
-        let values = (0..<count).map { (i) -> ChartDataEntry in
-            let val = Double(arc4random_uniform(range) + 3)
-            return ChartDataEntry(x: Double(i), y: val, icon: #imageLiteral(resourceName: "Statistics"))
+        let foodData = FoodData()
+        var values = [ChartDataEntry]();
+        
+        let ti:TimeInterval = 24*60*60
+        let dateTo = Date()
+        let dateFrom = dateTo.addingTimeInterval(-ti*30)
+        var nextDate = dateFrom
+        var xAxis = 0
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd"
+
+        while nextDate.compare(dateTo) != ComparisonResult.orderedDescending
+        {
+            values.append(ChartDataEntry(x: Double(xAxis), y: foodData.getCaloriesbyDate(formatter.string(from: nextDate)).reduce(0, +), icon: #imageLiteral(resourceName: "Statistics")))
+            nextDate = nextDate.addingTimeInterval(ti)
+            xAxis += 1
         }
         
-        let set1 = LineChartDataSet(entries: values, label: "DataSet 1")
+        let set1 = LineChartDataSet(entries: values, label: "")
         set1.drawIconsEnabled = false
         
         set1.lineDashLengths = [5, 2.5]
@@ -114,22 +120,11 @@ class StatsVC: UIViewController, ChartViewDelegate {
         let gradient = CGGradient(colorsSpace: nil, colors: gradientColors as CFArray, locations: nil)!
         
         set1.fillAlpha = 1
-        set1.fill = Fill(linearGradient: gradient, angle: 90) //.linearGradient(gradient, angle: 90)
+        set1.fill = Fill(linearGradient: gradient, angle: 90)
         set1.drawFilledEnabled = true
         
         let data = LineChartData(dataSet: set1)
         
         chart.data = data
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
