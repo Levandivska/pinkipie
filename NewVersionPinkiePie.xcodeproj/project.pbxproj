@@ -16,7 +16,6 @@
 		334D1988234B41F200A6BBCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334D1986234B41F200A6BBCD /* Main.storyboard */; };
 		334D198B234B41F200A6BBCD /* NewVersionPinkiePie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 334D1989234B41F200A6BBCD /* NewVersionPinkiePie.xcdatamodeld */; };
 		334D198D234B41F700A6BBCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 334D198C234B41F700A6BBCD /* Assets.xcassets */; };
-		334D1990234B41F700A6BBCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334D198E234B41F700A6BBCD /* LaunchScreen.storyboard */; };
 		334D1998234B449C00A6BBCD /* HealthKitSetupAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334D1997234B449C00A6BBCD /* HealthKitSetupAssistant.swift */; };
 		334D199A234B44C200A6BBCD /* ProfileDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334D1999234B44C200A6BBCD /* ProfileDataStore.swift */; };
 		334D199C234B44DC00A6BBCD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334D199B234B44DC00A6BBCD /* MainViewController.swift */; };
@@ -29,6 +28,9 @@
 		F24058A2234E5AC100EEDF82 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F240589C234E5AC100EEDF82 /* Person+CoreDataClass.swift */; };
 		F24058A3234E5AC100EEDF82 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F240589D234E5AC100EEDF82 /* Person+CoreDataProperties.swift */; };
 		F24058A5234E5BF300EEDF82 /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24058A4234E5BF300EEDF82 /* FoodData.swift */; };
+		F2FB678D23506A6F00F5284B /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB678C23506A6F00F5284B /* ApiRequest.swift */; };
+		F2FB679123506AA200F5284B /* FoodInfoStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB679023506AA200F5284B /* FoodInfoStruct.swift */; };
+		F2FB679323506AB800F5284B /* FoodStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB679223506AB800F5284B /* FoodStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +44,6 @@
 		334D1987234B41F200A6BBCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		334D198A234B41F200A6BBCD /* NewVersionPinkiePie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewVersionPinkiePie.xcdatamodel; sourceTree = "<group>"; };
 		334D198C234B41F700A6BBCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		334D198F234B41F700A6BBCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		334D1991234B41F700A6BBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		334D1997234B449C00A6BBCD /* HealthKitSetupAssistant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitSetupAssistant.swift; sourceTree = "<group>"; };
 		334D1999234B44C200A6BBCD /* ProfileDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataStore.swift; sourceTree = "<group>"; };
@@ -57,6 +58,9 @@
 		F240589C234E5AC100EEDF82 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
 		F240589D234E5AC100EEDF82 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F24058A4234E5BF300EEDF82 /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
+		F2FB678C23506A6F00F5284B /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		F2FB679023506AA200F5284B /* FoodInfoStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodInfoStruct.swift; sourceTree = "<group>"; };
+		F2FB679223506AB800F5284B /* FoodStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				F2405894234E5A0E00EEDF82 /* CoreData */,
-				334D199D234B455800A6BBCD /* NewVersionPinkiePie.entitlements */,
 				334D1982234B41F200A6BBCD /* AppDelegate.swift */,
 				334D1984234B41F200A6BBCD /* ViewController.swift */,
 				334D1997234B449C00A6BBCD /* HealthKitSetupAssistant.swift */,
@@ -102,11 +105,14 @@
 				334D199B234B44DC00A6BBCD /* MainViewController.swift */,
 				334D1986234B41F200A6BBCD /* Main.storyboard */,
 				334D198C234B41F700A6BBCD /* Assets.xcassets */,
-				334D198E234B41F700A6BBCD /* LaunchScreen.storyboard */,
 				334D1991234B41F700A6BBCD /* Info.plist */,
 				0F2CB435234CB27A006E79C9 /* SearchFoodViewController.swift */,
 				0F2CB439234E4B30006E79C9 /* CalculateKcalViewController.swift */,
 				F24058A4234E5BF300EEDF82 /* FoodData.swift */,
+				334D199D234B455800A6BBCD /* NewVersionPinkiePie.entitlements */,
+				F2FB678C23506A6F00F5284B /* ApiRequest.swift */,
+				F2FB679023506AA200F5284B /* FoodInfoStruct.swift */,
+				F2FB679223506AB800F5284B /* FoodStorage.swift */,
 			);
 			path = NewVersionPinkiePie;
 			sourceTree = "<group>";
@@ -205,7 +211,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				334D1990234B41F700A6BBCD /* LaunchScreen.storyboard in Resources */,
 				334D198D234B41F700A6BBCD /* Assets.xcassets in Resources */,
 				334D1988234B41F200A6BBCD /* Main.storyboard in Resources */,
 			);
@@ -218,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2FB678D23506A6F00F5284B /* ApiRequest.swift in Sources */,
 				F24058A2234E5AC100EEDF82 /* Person+CoreDataClass.swift in Sources */,
 				0F2CB433234CACA5006E79C9 /* Food.swift in Sources */,
 				0F2CB434234CACA5006E79C9 /* FoodCell.swift in Sources */,
@@ -227,8 +233,10 @@
 				F24058A3234E5AC100EEDF82 /* Person+CoreDataProperties.swift in Sources */,
 				334D199A234B44C200A6BBCD /* ProfileDataStore.swift in Sources */,
 				334D1998234B449C00A6BBCD /* HealthKitSetupAssistant.swift in Sources */,
+				F2FB679323506AB800F5284B /* FoodStorage.swift in Sources */,
 				F240589E234E5AC100EEDF82 /* DayCalories+CoreDataClass.swift in Sources */,
 				F24058A1234E5AC100EEDF82 /* DayNutriens+CoreDataProperties.swift in Sources */,
+				F2FB679123506AA200F5284B /* FoodInfoStruct.swift in Sources */,
 				F2405897234E5A2A00EEDF82 /* CoreDataStack.swift in Sources */,
 				334D199C234B44DC00A6BBCD /* MainViewController.swift in Sources */,
 				334D198B234B41F200A6BBCD /* NewVersionPinkiePie.xcdatamodeld in Sources */,
@@ -248,14 +256,6 @@
 				334D1987234B41F200A6BBCD /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		334D198E234B41F700A6BBCD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				334D198F234B41F700A6BBCD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
