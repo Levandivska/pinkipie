@@ -15,14 +15,14 @@ struct NutrientInfo{
 }
 
 struct FoodInfo {
-    var totalNutrients: [TotalNutrientsInfo]
+    var totalNutrients: TotalNutrientsInfo
 }
 
 struct TotalNutrientsInfo {
-    var ENERC_KCAL: [NutrientInfo]
-    var FAT: [NutrientInfo]
-    var CHOCDF: [NutrientInfo]
-    var PROCNT: [NutrientInfo]
+    var ENERC_KCAL: NutrientInfo
+    var FAT: NutrientInfo
+    var CHOCDF: NutrientInfo
+    var PROCNT: NutrientInfo
 }
 
 extension NutrientInfo:Decodable{
@@ -49,10 +49,10 @@ extension TotalNutrientsInfo: Decodable{
     }
     init(from decoder: Decoder) throws{
         let container = try decoder.container(keyedBy: Keys.self)
-        self.ENERC_KCAL = try container.decode([NutrientInfo].self, forKey: .ENERC_KCAL)
-        self.FAT = try container.decode([NutrientInfo].self, forKey: .FAT)
-        self.CHOCDF = try container.decode([NutrientInfo].self, forKey: .CHOCDF)
-        self.PROCNT = try container.decode([NutrientInfo].self, forKey: .PROCNT)
+        self.ENERC_KCAL = try container.decode(NutrientInfo.self, forKey: .ENERC_KCAL)
+        self.FAT = try container.decode(NutrientInfo.self, forKey: .FAT)
+        self.CHOCDF = try container.decode(NutrientInfo.self, forKey: .CHOCDF)
+        self.PROCNT = try container.decode(NutrientInfo.self, forKey: .PROCNT)
     }
 }
 
@@ -62,6 +62,6 @@ extension FoodInfo: Decodable {
     }
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: Keys.self)
-        self.totalNutrients = try container.decode([TotalNutrientsInfo].self, forKey: .totalNutrients)
+        self.totalNutrients = try container.decode(TotalNutrientsInfo.self, forKey: .totalNutrients)
     }
 }

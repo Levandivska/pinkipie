@@ -10,7 +10,7 @@ import Foundation
 class FoodStorage {
     static let shared = FoodStorage ()
     
-    var food = [TotalNutrientsInfo]()
+    var food: TotalNutrientsInfo!
     
     func sync() {
         NotificationCenter.default.post(Notification(name: Notification.Name(rawValue: "synced")))

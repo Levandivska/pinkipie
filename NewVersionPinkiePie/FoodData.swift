@@ -26,6 +26,11 @@ class FoodData{
         newdaycal.date = today
         newdaycal.total_cal = calories
         CoreDataStack.shared.saveContext()
+//        addNut with one func
+        let prodInfo = FoodStorage.shared.food
+        let fat = prodInfo?.FAT.quantity
+        let prot = prodInfo?.PROCNT.quantity
+        addNut(calories, Double(fat!), Double(prot!))
     }
     
     func addNut(_ carbs: Double, _ fat: Double, _ proteins: Double){

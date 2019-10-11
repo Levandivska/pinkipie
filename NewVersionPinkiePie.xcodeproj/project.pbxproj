@@ -103,9 +103,9 @@
 		334D1981234B41F200A6BBCD /* NewVersionPinkiePie */ = {
 			isa = PBXGroup;
 			children = (
+				F2405894234E5A0E00EEDF82 /* CoreData */,
 				3BB5C1CA234FA80800C53E56 /* BalloonMarker.swift */,
 				3BB5C1CB234FA80800C53E56 /* StatsVC.swift */,
-				F2405894234E5A0E00EEDF82 /* CoreData */,
 				334D1982234B41F200A6BBCD /* AppDelegate.swift */,
 				334D1984234B41F200A6BBCD /* ViewController.swift */,
 				334D1997234B449C00A6BBCD /* HealthKitSetupAssistant.swift */,
