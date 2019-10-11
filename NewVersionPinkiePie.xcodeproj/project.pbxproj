@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,9 @@
 		334D199A234B44C200A6BBCD /* ProfileDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334D1999234B44C200A6BBCD /* ProfileDataStore.swift */; };
 		334D199C234B44DC00A6BBCD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334D199B234B44DC00A6BBCD /* MainViewController.swift */; };
 		334D19A0234B455800A6BBCD /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334D199F234B455800A6BBCD /* HealthKit.framework */; };
+		3BB5C1CC234FA80800C53E56 /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB5C1CA234FA80800C53E56 /* BalloonMarker.swift */; };
+		3BB5C1CD234FA80800C53E56 /* StatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB5C1CB234FA80800C53E56 /* StatsVC.swift */; };
+		A8C604C80EEC94C8C072017D /* Pods_NewVersionPinkiePie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4B03B4679F3A31F1B9F224 /* Pods_NewVersionPinkiePie.framework */; };
 		F2405897234E5A2A00EEDF82 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2405896234E5A2A00EEDF82 /* CoreDataStack.swift */; };
 		F240589E234E5AC100EEDF82 /* DayCalories+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2405898234E5AC100EEDF82 /* DayCalories+CoreDataClass.swift */; };
 		F240589F234E5AC100EEDF82 /* DayCalories+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2405899234E5AC100EEDF82 /* DayCalories+CoreDataProperties.swift */; };
@@ -45,6 +48,11 @@
 		334D199B234B44DC00A6BBCD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		334D199D234B455800A6BBCD /* NewVersionPinkiePie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewVersionPinkiePie.entitlements; sourceTree = "<group>"; };
 		334D199F234B455800A6BBCD /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		3BB5C1CA234FA80800C53E56 /* BalloonMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
+		3BB5C1CB234FA80800C53E56 /* StatsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsVC.swift; sourceTree = "<group>"; };
+		5E4B03B4679F3A31F1B9F224 /* Pods_NewVersionPinkiePie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewVersionPinkiePie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		942AD78E07F09DC1DAEBC9FF /* Pods-NewVersionPinkiePie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewVersionPinkiePie.debug.xcconfig"; path = "Target Support Files/Pods-NewVersionPinkiePie/Pods-NewVersionPinkiePie.debug.xcconfig"; sourceTree = "<group>"; };
+		D8FE20EC2DB2336594B18D3D /* Pods-NewVersionPinkiePie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewVersionPinkiePie.release.xcconfig"; path = "Target Support Files/Pods-NewVersionPinkiePie/Pods-NewVersionPinkiePie.release.xcconfig"; sourceTree = "<group>"; };
 		F2405896234E5A2A00EEDF82 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		F2405898234E5AC100EEDF82 /* DayCalories+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayCalories+CoreDataClass.swift"; sourceTree = "<group>"; };
 		F2405899234E5AC100EEDF82 /* DayCalories+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DayCalories+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -61,6 +69,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				334D19A0234B455800A6BBCD /* HealthKit.framework in Frameworks */,
+				A8C604C80EEC94C8C072017D /* Pods_NewVersionPinkiePie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +82,7 @@
 				334D1981234B41F200A6BBCD /* NewVersionPinkiePie */,
 				334D1980234B41F100A6BBCD /* Products */,
 				334D199E234B455800A6BBCD /* Frameworks */,
+				885814E1925DF749EBB1D896 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +97,8 @@
 		334D1981234B41F200A6BBCD /* NewVersionPinkiePie */ = {
 			isa = PBXGroup;
 			children = (
+				3BB5C1CA234FA80800C53E56 /* BalloonMarker.swift */,
+				3BB5C1CB234FA80800C53E56 /* StatsVC.swift */,
 				F2405894234E5A0E00EEDF82 /* CoreData */,
 				334D199D234B455800A6BBCD /* NewVersionPinkiePie.entitlements */,
 				334D1982234B41F200A6BBCD /* AppDelegate.swift */,
@@ -109,8 +121,18 @@
 			isa = PBXGroup;
 			children = (
 				334D199F234B455800A6BBCD /* HealthKit.framework */,
+				5E4B03B4679F3A31F1B9F224 /* Pods_NewVersionPinkiePie.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		885814E1925DF749EBB1D896 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				942AD78E07F09DC1DAEBC9FF /* Pods-NewVersionPinkiePie.debug.xcconfig */,
+				D8FE20EC2DB2336594B18D3D /* Pods-NewVersionPinkiePie.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		F2405894234E5A0E00EEDF82 /* CoreData */ = {
@@ -143,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 334D1994234B41F700A6BBCD /* Build configuration list for PBXNativeTarget "NewVersionPinkiePie" */;
 			buildPhases = (
+				0E883C756BB9413CB092A5D5 /* [CP] Check Pods Manifest.lock */,
 				334D197B234B41F100A6BBCD /* Sources */,
 				334D197C234B41F100A6BBCD /* Frameworks */,
 				334D197D234B41F100A6BBCD /* Resources */,
+				0365A7DF383B054C3729512B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -206,6 +230,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0365A7DF383B054C3729512B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewVersionPinkiePie/Pods-NewVersionPinkiePie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewVersionPinkiePie/Pods-NewVersionPinkiePie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewVersionPinkiePie/Pods-NewVersionPinkiePie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E883C756BB9413CB092A5D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewVersionPinkiePie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		334D197B234B41F100A6BBCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -218,6 +284,7 @@
 				334D1985234B41F200A6BBCD /* ViewController.swift in Sources */,
 				F24058A3234E5AC100EEDF82 /* Person+CoreDataProperties.swift in Sources */,
 				334D199A234B44C200A6BBCD /* ProfileDataStore.swift in Sources */,
+				3BB5C1CC234FA80800C53E56 /* BalloonMarker.swift in Sources */,
 				334D1998234B449C00A6BBCD /* HealthKitSetupAssistant.swift in Sources */,
 				F240589E234E5AC100EEDF82 /* DayCalories+CoreDataClass.swift in Sources */,
 				F24058A1234E5AC100EEDF82 /* DayNutriens+CoreDataProperties.swift in Sources */,
@@ -225,6 +292,7 @@
 				334D199C234B44DC00A6BBCD /* MainViewController.swift in Sources */,
 				334D198B234B41F200A6BBCD /* NewVersionPinkiePie.xcdatamodeld in Sources */,
 				334D1983234B41F200A6BBCD /* AppDelegate.swift in Sources */,
+				3BB5C1CD234FA80800C53E56 /* StatsVC.swift in Sources */,
 				0F2CB43A234E4B30006E79C9 /* CalculateKcalViewController.swift in Sources */,
 				F24058A0234E5AC100EEDF82 /* DayNutriens+CoreDataClass.swift in Sources */,
 				F240589F234E5AC100EEDF82 /* DayCalories+CoreDataProperties.swift in Sources */,
@@ -363,6 +431,7 @@
 		};
 		334D1995234B41F700A6BBCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 942AD78E07F09DC1DAEBC9FF /* Pods-NewVersionPinkiePie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = NewVersionPinkiePie/NewVersionPinkiePie.entitlements;
@@ -382,6 +451,7 @@
 		};
 		334D1996234B41F700A6BBCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8FE20EC2DB2336594B18D3D /* Pods-NewVersionPinkiePie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = NewVersionPinkiePie/NewVersionPinkiePie.entitlements;
