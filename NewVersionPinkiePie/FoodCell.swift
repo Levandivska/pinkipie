@@ -12,8 +12,8 @@ class FoodCell: UITableViewCell{
     
     @IBOutlet weak var foodName: UILabel!
     
-    func setFood(_ food: Food){
-        foodName.text = food.name
+    func setFood(_ food: String){
+        foodName.text = food
     }
 }
 
