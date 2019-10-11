@@ -21,6 +21,7 @@ class SearchFoodViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "PinkiePie search food", style: .plain, target: nil, action: nil)
         tableView.delegate = self
         tableView.dataSource = self
         
@@ -33,14 +34,14 @@ class SearchFoodViewController: UIViewController {
         
         // TODO -> check food with API
         savedFoods.insert(mainView.currentFoodName, at: 0)
-        self.performSegue(withIdentifier: "AddKcallSegue", sender: self)
+        //self.performSegue(withIdentifier: "AddKcallSegue", sender: self)
         
     }
     
     func savedFoodClik(_ food: String){
         let mainView = MainViewController(nibName: "MainViewController", bundle: nil)
         mainView.currentFoodName = food
-        self.performSegue(withIdentifier: "AddKcallSegue", sender: self)
+        //self.performSegue(withIdentifier: "AddKcallSegue", sender: self)
     }
     
     

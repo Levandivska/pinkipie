@@ -113,7 +113,6 @@ class ViewController: UIViewController {
             tabBarController?.selectedIndex = 2
         } else {
             HiddenMessageLabel.isHidden = false
-            print("I'm here")
             HiddenMessageLabel.text = "Oops, it looks like you've forgotten something!"
             saveButtonPressed.isUserInteractionEnabled = false
         }
@@ -211,27 +210,27 @@ class ViewController: UIViewController {
         }
     }
     
-    func deleteData() {
-        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
-        let managedContext = appDelegate.persistentContainer.viewContext
-        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Person")
-        fetchRequest.predicate = NSPredicate(format: "name = %@", "Veronika")
-        do {
-            let test = try managedContext.fetch(fetchRequest)
-            
-            let objectToDelete = test[0] as! NSManagedObject
-            managedContext.delete(objectToDelete)
-            
-            do {
-                try managedContext.save()
-            } catch {
-                print(error)
-            }
-        } catch {
-            print(error)
-        }
-    }
-    
+//    func deleteData() {
+//        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
+//        let managedContext = appDelegate.persistentContainer.viewContext
+//        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Person")
+//        fetchRequest.predicate = NSPredicate(format: "name = %@", "Veronika")
+//        do {
+//            let test = try managedContext.fetch(fetchRequest)
+//
+//            let objectToDelete = test[0] as! NSManagedObject
+//            managedContext.delete(objectToDelete)
+//
+//            do {
+//                try managedContext.save()
+//            } catch {
+//                print(error)
+//            }
+//        } catch {
+//            print(error)
+//        }
+//    }
+//
     
     override func viewDidLoad() {
         super.viewDidLoad()

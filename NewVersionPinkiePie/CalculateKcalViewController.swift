@@ -40,8 +40,7 @@ class CalculateKcalViewController: UIViewController {
         if let curm = Int(textField.text!){
             mainView.currentMass = curm
             mainView.AddKcal()
-            //            self.navigationController?.pop
-            self.performSegue(withIdentifier: "FinishSeuge", sender: self)
+            self.navigationController?.popToRootViewController(animated: true)
         }
         else{
             alertMessage("Error", "Incorrect data, Enter the number of grams.")
@@ -58,8 +57,7 @@ class CalculateKcalViewController: UIViewController {
             mainView.currentMass = curm
             mainView.AddKcal()
             
-            self.performSegue(withIdentifier: "AddMoreSeuge", sender: self)
-            //            self.navigationController?.pop
+            self.navigationController?.popViewController(animated: true)
         }
         else{
             alertMessage("Error", "Incorrect data, Enter the number of grams.")
