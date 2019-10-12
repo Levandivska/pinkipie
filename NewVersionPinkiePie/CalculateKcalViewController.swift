@@ -9,16 +9,30 @@
 import Foundation
 import UIKit
 
-class CalculateKcalViewController: UIViewController {
 
+class CalculateKcalViewController: UIViewController {
+    
+    var calculateMass: Int = 0
+    
     @IBOutlet weak var finishButton: UIButton!
     
     @IBOutlet weak var textField: UITextField!
     
     @IBOutlet weak var addMoreButton: UIButton!
     
+    var newcal:Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        NotificationCenter.default.addObserver(self, selector: #selector(storageDidSync), name: NSNotification.Name(rawValue: "synced"), object: nil)
+    }
+    
+    @objc func storageDidSync() {
+        print("DONE api request")
+        let prodInfo = FoodStorage.shared.food
+        let addkcal = prodInfo?.ENERC_KCAL.quantity
+        newcal = addkcal!
+        FoodData.shared.addCal(Double(addkcal!))
     }
     
     func alertMessage(_ title:String, _ message:String)
@@ -34,29 +48,29 @@ class CalculateKcalViewController: UIViewController {
         self.present(alert, animated: true, completion: nil)
     }
     
+    
     @IBAction func finishButtonClick(_ sender: UIButton){
-        let mainView = MainViewController(nibName: "MainViewController", bundle: nil)
-        
         if let curm = Int(textField.text!){
-            mainView.currentMass = curm
-            mainView.AddKcal()
+            let a = self.navigationController?.viewControllers[0] as! MainViewController
+            a.mass = curm
+            // Сalculate addedkcal usinf API
+            a.addKcal = newcal
+            a.AddKcal()
             self.navigationController?.popToRootViewController(animated: true)
         }
         else{
             alertMessage("Error", "Incorrect data, Enter the number of grams.")
             print("fail data")
+            
         }
         
     }
-    
+
     @IBAction func addMoreButtonClick(_ sender: UIButton){
-        //textField.text!
-        let mainView = MainViewController(nibName: "MainViewController", bundle: nil)
-        
         if let curm = Int(textField.text!){
-            mainView.currentMass = curm
-            mainView.AddKcal()
-            
+            calculateMass += curm
+            let a = self.navigationController?.viewControllers[0] as! MainViewController
+            a.mass = calculateMass
             self.navigationController?.popViewController(animated: true)
         }
         else{

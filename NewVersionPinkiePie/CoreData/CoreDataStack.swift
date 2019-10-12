@@ -45,6 +45,14 @@ class CoreDataStack{
         ) as! DayNutriens
         return newNut
     }
+    
+    func newSearch()-> Search{
+        let search = NSEntityDescription.insertNewObject(
+            forEntityName: "Search",
+            into: persistentContainer.viewContext
+        ) as! Search
+        return search
+    }
     func remove(totalcalories: DayCalories) {
         persistentContainer.viewContext.delete(totalcalories)
     }

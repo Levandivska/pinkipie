@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HFS-Fy-jlH">
-    <device id="retina6_1" orientation="portrait" appearance="light">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HFS-Fy-jlH">
+    <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,31 +13,16 @@
         <!--Statistics-->
         <scene sceneID="Wpw-XL-XWX">
             <objects>
-                <viewController id="haQ-tS-JAU" customClass="StatsVC" customModule="NewVersionPinkiePie" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="haQ-tS-JAU" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6oP-Xh-vfx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i5a-Ig-nF3" customClass="LineChartView" customModule="Charts">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                            </view>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="i5a-Ig-nF3" firstAttribute="top" secondItem="jTz-ZE-CLy" secondAttribute="top" id="HUl-xe-pT2"/>
-                            <constraint firstItem="jTz-ZE-CLy" firstAttribute="trailing" secondItem="i5a-Ig-nF3" secondAttribute="trailing" id="dc5-0E-hrK"/>
-                            <constraint firstItem="i5a-Ig-nF3" firstAttribute="leading" secondItem="jTz-ZE-CLy" secondAttribute="leading" id="hXg-uj-1vT"/>
-                            <constraint firstItem="jTz-ZE-CLy" firstAttribute="bottom" secondItem="i5a-Ig-nF3" secondAttribute="bottom" id="tm0-K6-B8i"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="jTz-ZE-CLy"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Statistics" image="Statistics" landscapeImage="Statistics" largeContentSizeImage="Statistics" selectedImage="Statistics" id="CYB-VA-KB6">
                         <color key="badgeColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
-                    <connections>
-                        <outlet property="chart" destination="i5a-Ig-nF3" id="cwu-33-yhe"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OsC-qW-ODd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -46,7 +31,7 @@
         <!--Search Food View Controller-->
         <scene sceneID="sFy-Et-WLe">
             <objects>
-                <viewController storyboardIdentifier="SearchFoodViewController" id="Woc-EW-P9w" customClass="SearchFoodViewController" customModule="NewVersionPinkiePie" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="searchFoodViewController" id="Woc-EW-P9w" customClass="SearchFoodViewController" customModule="NewVersionPinkiePie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SAc-BE-f0I">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,7 +61,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="foodName" destination="Jdg-UM-xtQ" id="Rax-Ox-4hp"/>
-                                            <segue destination="A3m-6B-MlT" kind="show" id="Iw0-Rn-g2e"/>
+                                            <segue destination="A3m-6B-MlT" kind="show" identifier="CalculateFood2Segue" id="Iw0-Rn-g2e"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -100,7 +85,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Choose food"/>
                                 <connections>
-                                    <segue destination="A3m-6B-MlT" kind="show" id="dt8-fT-Fhb"/>
+                                    <segue destination="A3m-6B-MlT" kind="show" identifier="CalculateFood1Segue" id="dt8-fT-Fhb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -132,7 +117,7 @@
         <!--Calculate Kcal View Controller-->
         <scene sceneID="L4L-gA-UXB">
             <objects>
-                <viewController id="A3m-6B-MlT" customClass="CalculateKcalViewController" customModule="NewVersionPinkiePie" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="calculateKcalViewController" id="A3m-6B-MlT" customClass="CalculateKcalViewController" customModule="NewVersionPinkiePie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gew-vE-hRe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -206,11 +191,12 @@ grams)</string>
                         <outlet property="addMoreButton" destination="OQY-5V-LxH" id="pNE-0a-NgD"/>
                         <outlet property="finishButton" destination="pOi-oa-dbU" id="gV4-Vd-fbo"/>
                         <outlet property="textField" destination="71k-zj-l3e" id="LRg-ok-6t3"/>
+                        <segue destination="GFo-Fd-aUf" kind="unwind" identifier="unwindSegueToVC1" unwindAction="unwindToVC1WithSegue:" id="71S-gK-Ovs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ewb-ud-yd7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2038" y="765"/>
+            <point key="canvasLocation" x="1939" y="765"/>
         </scene>
         <!--Profile-->
         <scene sceneID="cqw-O0-s7q">
@@ -419,7 +405,7 @@ grams)</string>
                                 </state>
                                 <connections>
                                     <action selector="buttonClick:" destination="qrL-Mz-gWe" eventType="touchUpInside" id="aB1-m9-WQ8"/>
-                                    <segue destination="Woc-EW-P9w" kind="show" id="V19-AJ-OXg"/>
+                                    <segue destination="Woc-EW-P9w" kind="show" identifier="SearchFoodSegue" id="V19-AJ-OXg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -448,6 +434,7 @@ grams)</string>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5ZJ-5i-Hvd" sceneMemberID="firstResponder"/>
+                <exit id="GFo-Fd-aUf" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="192.75362318840581" y="764.73214285714278"/>
         </scene>
@@ -488,6 +475,6 @@ grams)</string>
         <image name="Statistics" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="dt8-fT-Fhb"/>
+        <segue reference="Iw0-Rn-g2e"/>
     </inferredMetricsTieBreakers>
 </document>
