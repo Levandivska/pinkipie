@@ -56,7 +56,10 @@ class StatsVC: UIViewController, ChartViewDelegate {
         
 
         chart.animate(xAxisDuration: 2.5)
-
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         self.updateChartData()
     }
     
