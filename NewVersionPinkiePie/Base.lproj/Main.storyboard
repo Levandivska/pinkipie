@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HFS-Fy-jlH">
-    <device id="retina6_1" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HFS-Fy-jlH">
+    <device id="retina6_1" orientation="portrait" appearance="light">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,16 +13,31 @@
         <!--Statistics-->
         <scene sceneID="Wpw-XL-XWX">
             <objects>
-                <viewController id="haQ-tS-JAU" sceneMemberID="viewController">
+                <viewController id="haQ-tS-JAU" customClass="StatsVC" customModule="NewVersionPinkiePie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6oP-Xh-vfx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i5a-Ig-nF3" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="0.97484320402145386" green="0.83442848920822144" blue="0.75809472799301147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="i5a-Ig-nF3" firstAttribute="top" secondItem="jTz-ZE-CLy" secondAttribute="top" id="HUl-xe-pT2"/>
+                            <constraint firstItem="jTz-ZE-CLy" firstAttribute="trailing" secondItem="i5a-Ig-nF3" secondAttribute="trailing" id="dc5-0E-hrK"/>
+                            <constraint firstItem="i5a-Ig-nF3" firstAttribute="leading" secondItem="jTz-ZE-CLy" secondAttribute="leading" id="hXg-uj-1vT"/>
+                            <constraint firstItem="jTz-ZE-CLy" firstAttribute="bottom" secondItem="i5a-Ig-nF3" secondAttribute="bottom" id="tm0-K6-B8i"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="jTz-ZE-CLy"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Statistics" image="Statistics" landscapeImage="Statistics" largeContentSizeImage="Statistics" selectedImage="Statistics" id="CYB-VA-KB6">
                         <color key="badgeColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="chart" destination="i5a-Ig-nF3" id="cwu-33-yhe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OsC-qW-ODd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
