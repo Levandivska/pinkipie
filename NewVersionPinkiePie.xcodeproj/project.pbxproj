@@ -27,6 +27,9 @@
 		F24058A2234E5AC100EEDF82 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F240589C234E5AC100EEDF82 /* Person+CoreDataClass.swift */; };
 		F24058A3234E5AC100EEDF82 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F240589D234E5AC100EEDF82 /* Person+CoreDataProperties.swift */; };
 		F24058A5234E5BF300EEDF82 /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24058A4234E5BF300EEDF82 /* FoodData.swift */; };
+		F2BB22862351D87500818D85 /* ApiRequest .swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB22852351D87500818D85 /* ApiRequest .swift */; };
+		F2BB22882351D88100818D85 /* FoodStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB22872351D88100818D85 /* FoodStorage.swift */; };
+		F2BB228A2351D88F00818D85 /* FoodInfoStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB22892351D88F00818D85 /* FoodInfoStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +56,9 @@
 		F240589C234E5AC100EEDF82 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
 		F240589D234E5AC100EEDF82 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F24058A4234E5BF300EEDF82 /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
+		F2BB22852351D87500818D85 /* ApiRequest .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ApiRequest .swift"; sourceTree = "<group>"; };
+		F2BB22872351D88100818D85 /* FoodStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStorage.swift; sourceTree = "<group>"; };
+		F2BB22892351D88F00818D85 /* FoodInfoStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodInfoStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,9 @@
 				0F2CB435234CB27A006E79C9 /* SearchFoodViewController.swift */,
 				0F2CB439234E4B30006E79C9 /* CalculateKcalViewController.swift */,
 				F24058A4234E5BF300EEDF82 /* FoodData.swift */,
+				F2BB22852351D87500818D85 /* ApiRequest .swift */,
+				F2BB22872351D88100818D85 /* FoodStorage.swift */,
+				F2BB22892351D88F00818D85 /* FoodInfoStruct.swift */,
 			);
 			path = NewVersionPinkiePie;
 			sourceTree = "<group>";
@@ -218,11 +227,14 @@
 				334D1985234B41F200A6BBCD /* ViewController.swift in Sources */,
 				F24058A3234E5AC100EEDF82 /* Person+CoreDataProperties.swift in Sources */,
 				334D199A234B44C200A6BBCD /* ProfileDataStore.swift in Sources */,
+				F2BB22862351D87500818D85 /* ApiRequest .swift in Sources */,
 				334D1998234B449C00A6BBCD /* HealthKitSetupAssistant.swift in Sources */,
 				F240589E234E5AC100EEDF82 /* DayCalories+CoreDataClass.swift in Sources */,
 				F24058A1234E5AC100EEDF82 /* DayNutriens+CoreDataProperties.swift in Sources */,
 				F2405897234E5A2A00EEDF82 /* CoreDataStack.swift in Sources */,
+				F2BB228A2351D88F00818D85 /* FoodInfoStruct.swift in Sources */,
 				334D199C234B44DC00A6BBCD /* MainViewController.swift in Sources */,
+				F2BB22882351D88100818D85 /* FoodStorage.swift in Sources */,
 				334D198B234B41F200A6BBCD /* NewVersionPinkiePie.xcdatamodeld in Sources */,
 				334D1983234B41F200A6BBCD /* AppDelegate.swift in Sources */,
 				0F2CB43A234E4B30006E79C9 /* CalculateKcalViewController.swift in Sources */,

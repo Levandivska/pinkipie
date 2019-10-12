@@ -1,10 +1,11 @@
 import UIKit
 import Foundation
 
-class MainViewController: UIViewController {
-
-    var currentFoodName: String = ""
-    var currentMass: Int = 0
+class MainViewController: UIViewController{
+    
+    var foodName: String = ""
+    var mass: Int = 0
+    var addKcal: Int = 0
     
     @IBOutlet weak var ResultView: UIView!
     @IBOutlet weak var kcalleft: UILabel!
@@ -13,8 +14,6 @@ class MainViewController: UIViewController {
     @IBOutlet weak var myButton: UIButton!
 
     let searchController = UISearchController(searchResultsController: nil)
-    
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,26 +25,25 @@ class MainViewController: UIViewController {
         ResultView.layer.borderColor = UIColor.white.cgColor
         ResultView.layer.borderWidth = 5.0
         
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
         kcalleft.text = "\(Int(((10 * (weight_ as NSString).doubleValue) + 6.25 * ((height_ as NSString).doubleValue) - (5 * (age_ as NSString).doubleValue) - 161) * 1.2))"
         kcalPerDay.text = "\(Int(((10 * (weight_ as NSString).doubleValue) + 6.25 * ((height_ as NSString).doubleValue) - (5 * (age_ as NSString).doubleValue) - 161) * 1.2))"
         kcalConsumed.text = "0"
+    
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+//        kcalleft.text = "\(Int(((10 * (weight_ as NSString).doubleValue) + 6.25 * ((height_ as NSString).doubleValue) - (5 * (age_ as NSString).doubleValue) - 161) * 1.2))"
+//        kcalPerDay.text = "\(Int(((10 * (weight_ as NSString).doubleValue) + 6.25 * ((height_ as NSString).doubleValue) - (5 * (age_ as NSString).doubleValue) - 161) * 1.2))"
+//        kcalConsumed.text = "0"
+        
     }
     
     @IBAction func buttonClick(_ sender: UIButton) {
     }
     
-    
     func AddKcal() {
-        // find addkcal Using currentMass, currentFoodName
-        
-        _ = 100
-        //
-        
-        //        kcalleft.text = String(Int(kcalleft.text!)! - addkcal)
-        //        kcalConsumed.text = String(Int(kcalConsumed.text!)! + addkcal)
+        kcalleft.text = String(Int(kcalleft.text!)! - self.addKcal)
+        kcalConsumed.text = String(Int(kcalConsumed.text!)! + self.addKcal)
     }
 }
 

@@ -17,7 +17,7 @@
                     <view key="view" contentMode="scaleToFill" id="6oP-Xh-vfx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.97484320402145386" green="0.83442848920822144" blue="0.75809472799301147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="jTz-ZE-CLy"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Statistics" image="Statistics" landscapeImage="Statistics" largeContentSizeImage="Statistics" selectedImage="Statistics" id="CYB-VA-KB6">
@@ -31,14 +31,14 @@
         <!--Search Food View Controller-->
         <scene sceneID="sFy-Et-WLe">
             <objects>
-                <viewController storyboardIdentifier="SearchFoodViewController" id="Woc-EW-P9w" customClass="SearchFoodViewController" customModule="NewVersionPinkiePie" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="searchFoodViewController" id="Woc-EW-P9w" customClass="SearchFoodViewController" customModule="NewVersionPinkiePie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SAc-BE-f0I">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nZq-jp-ohW">
                                 <rect key="frame" x="0.0" y="308" width="414" height="505"/>
-                                <color key="backgroundColor" red="0.97484320402145386" green="0.83442848920822144" blue="0.75809472799301147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FoodsCell" id="3wY-L7-9ic" customClass="FoodCell" customModule="NewVersionPinkiePie" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
@@ -50,22 +50,18 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jdg-UM-xtQ">
                                                     <rect key="frame" x="175" y="5.5" width="64" height="32.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.66532498598098755" green="0.33148446679115295" blue="0.14734795689582825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="Jdg-UM-xtQ" firstAttribute="centerX" secondItem="YG7-ad-KFp" secondAttribute="centerX" id="5h9-QK-wzD"/>
                                                 <constraint firstItem="Jdg-UM-xtQ" firstAttribute="centerY" secondItem="YG7-ad-KFp" secondAttribute="centerY" id="iJS-Hk-Ipr"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.97827142477035522" green="0.83473259210586548" blue="0.75825685262680054" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="foodName" destination="Jdg-UM-xtQ" id="Rax-Ox-4hp"/>
-                                            <segue destination="A3m-6B-MlT" kind="show" id="Iw0-Rn-g2e"/>
+                                            <segue destination="A3m-6B-MlT" kind="show" identifier="CalculateFood2Segue" id="Iw0-Rn-g2e"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -75,27 +71,26 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="f50-Ri-Cjy"/>
                                 </constraints>
-                                <color key="textColor" red="0.94770568609237671" green="0.55951863527297974" blue="0.23023205995559692" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n0w-vg-nvT">
                                 <rect key="frame" x="60" y="168" width="294" height="50"/>
-                                <color key="backgroundColor" red="0.34501028060913086" green="0.54445207118988037" blue="0.54355537891387939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.60003745720000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="npo-eT-WDq"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Choose food">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
+                                <state key="normal" title="Choose food"/>
                                 <connections>
-                                    <segue destination="A3m-6B-MlT" kind="show" id="dt8-fT-Fhb"/>
+                                    <action selector="foodClik:" destination="Woc-EW-P9w" eventType="touchUpInside" id="21t-Bf-gMe"/>
+                                    <segue destination="A3m-6B-MlT" kind="show" identifier="CalculateFood1Segue" id="dt8-fT-Fhb"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.97827142477035522" green="0.83473259210586548" blue="0.75825685262680054" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="gsc-bh-jFm" firstAttribute="top" secondItem="nI2-nI-Bdq" secondAttribute="top" id="1e4-zi-ack"/>
                             <constraint firstItem="nI2-nI-Bdq" firstAttribute="trailing" secondItem="n0w-vg-nvT" secondAttribute="trailing" constant="60" id="72g-MG-es4"/>
@@ -123,7 +118,7 @@
         <!--Calculate Kcal View Controller-->
         <scene sceneID="L4L-gA-UXB">
             <objects>
-                <viewController id="A3m-6B-MlT" customClass="CalculateKcalViewController" customModule="NewVersionPinkiePie" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="calculateKcalViewController" id="A3m-6B-MlT" customClass="CalculateKcalViewController" customModule="NewVersionPinkiePie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gew-vE-hRe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -134,7 +129,7 @@
 grams
 grams)</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.99990516901016235" green="1" blue="0.99987047910690308" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="71k-zj-l3e">
@@ -143,13 +138,13 @@ grams)</string>
                                     <constraint firstAttribute="width" constant="250" id="kOq-oj-DRr"/>
                                     <constraint firstAttribute="height" constant="80" id="xor-g0-gM4"/>
                                 </constraints>
-                                <color key="textColor" red="0.94770568609237671" green="0.55951863527297974" blue="0.23023205995559692" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOi-oa-dbU">
                                 <rect key="frame" x="107" y="302" width="200" height="60"/>
-                                <color key="backgroundColor" red="0.34501028060913086" green="0.54445207118988037" blue="0.54355537891387939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.60003745719178081" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="4m2-GK-6Ki"/>
                                     <constraint firstAttribute="height" constant="60" id="6fQ-TZ-in4"/>
@@ -166,7 +161,7 @@ grams)</string>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQY-5V-LxH">
                                 <rect key="frame" x="92.5" y="462" width="229" height="60"/>
-                                <color key="backgroundColor" red="0.78586179020000002" green="0.33285596969999998" blue="0.2376368046" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.4044038955479452" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="bgL-DB-Jh2"/>
                                 </constraints>
@@ -180,7 +175,7 @@ grams)</string>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.97827142477035522" green="0.83473259210586548" blue="0.75825685262680054" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="CPX-Zt-pYq" firstAttribute="centerX" secondItem="gew-vE-hRe" secondAttribute="centerX" id="BY3-Q4-hu9"/>
                             <constraint firstItem="71k-zj-l3e" firstAttribute="centerX" secondItem="gew-vE-hRe" secondAttribute="centerX" id="ITe-Kb-bjv"/>
@@ -197,11 +192,12 @@ grams)</string>
                         <outlet property="addMoreButton" destination="OQY-5V-LxH" id="pNE-0a-NgD"/>
                         <outlet property="finishButton" destination="pOi-oa-dbU" id="gV4-Vd-fbo"/>
                         <outlet property="textField" destination="71k-zj-l3e" id="LRg-ok-6t3"/>
+                        <segue destination="GFo-Fd-aUf" kind="unwind" identifier="unwindSegueToVC1" unwindAction="unwindToVC1WithSegue:" id="71S-gK-Ovs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ewb-ud-yd7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2038" y="765"/>
+            <point key="canvasLocation" x="1939" y="765"/>
         </scene>
         <!--Profile-->
         <scene sceneID="cqw-O0-s7q">
@@ -217,7 +213,7 @@ grams)</string>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Lu-bt-vfz">
                                         <rect key="frame" x="42.5" y="0.0" width="179.5" height="50.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="42"/>
-                                        <color key="textColor" red="0.34501028060913086" green="0.54445207118988037" blue="0.54355537891387939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IaI-vL-nSh">
@@ -227,56 +223,46 @@ grams)</string>
                                             <constraint firstAttribute="width" constant="260" id="tqn-Yy-jNB"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <color key="textColor" red="0.99990516901016235" green="1" blue="0.99987047910690308" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What is your name?" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="tpk-zs-zM9" customClass="stackView">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What is your name?" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="tpk-zs-zM9">
                                         <rect key="frame" x="6" y="158.5" width="252" height="33"/>
-                                        <color key="tintColor" red="0.94770568609237671" green="0.55951863527297974" blue="0.23023205995559692" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="textColor" red="0.94770568609237671" green="0.55951863527297974" blue="0.23023205995559692" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What is your weight?" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="foq-K9-Sdv">
                                         <rect key="frame" x="0.0" y="221.5" width="264" height="33"/>
-                                        <color key="tintColor" red="0.91403192281723022" green="0.53891980648040771" blue="0.22164949774742126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="textColor" red="0.92148035764694214" green="0.54313236474990845" blue="0.22311586141586304" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What is your height?" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="i7D-ba-SEq">
                                         <rect key="frame" x="2" y="284.5" width="260" height="33"/>
-                                        <color key="tintColor" red="0.91403192281723022" green="0.53891980648040771" blue="0.22164949774742126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="textColor" red="0.92148035764694214" green="0.54313236474990845" blue="0.22311586141586304" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="How old are you?" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="KyG-FY-Xk5">
                                         <rect key="frame" x="2" y="347.5" width="260" height="33"/>
-                                        <color key="tintColor" red="0.91403192281723022" green="0.53891980648040771" blue="0.22164949774742126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="textColor" red="0.92148035764694214" green="0.54313236474990845" blue="0.22311586141586304" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ItH-8k-D3v">
-                                        <rect key="frame" x="32" y="410.5" width="200" height="53"/>
-                                        <color key="backgroundColor" red="0.26269114017486572" green="0.63485509157180786" blue="0.67313802242279053" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="Cgs-LZ-taf"/>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="ayu-gx-2cj"/>
-                                        </constraints>
+                                        <rect key="frame" x="97.5" y="410.5" width="69" height="53"/>
+                                        <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                         <state key="normal" title="Next">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <color key="titleShadowColor" red="0.26269114017486572" green="0.63485509157180786" blue="0.67313802242279053" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="saveButtonPressed:" destination="1Zn-5i-CzB" eventType="touchUpInside" id="l6v-ee-aHY"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="KyG-FY-Xk5" firstAttribute="leading" secondItem="xeS-Rz-u7K" secondAttribute="leading" constant="2" id="5Hb-KY-7nz"/>
                                     <constraint firstAttribute="trailing" secondItem="IaI-vL-nSh" secondAttribute="trailing" constant="2" id="OQO-Wo-P8a"/>
@@ -285,7 +271,7 @@ grams)</string>
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.97827142477035522" green="0.83473259210586548" blue="0.75825685262680054" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="xeS-Rz-u7K" firstAttribute="centerX" secondItem="fBe-aB-YKO" secondAttribute="centerX" id="7il-pL-nzF"/>
                             <constraint firstItem="xeS-Rz-u7K" firstAttribute="centerY" secondItem="fBe-aB-YKO" secondAttribute="centerY" id="HTl-bA-3Bb"/>
@@ -297,7 +283,6 @@ grams)</string>
                         <outlet property="HiddenMessageLabel" destination="IaI-vL-nSh" id="0e9-p3-QSM"/>
                         <outlet property="ageLabel" destination="KyG-FY-Xk5" id="XgX-Nx-HuH"/>
                         <outlet property="heightLabel" destination="i7D-ba-SEq" id="0CW-b9-7S9"/>
-                        <outlet property="mainStackView" destination="xeS-Rz-u7K" id="tdw-El-lbm"/>
                         <outlet property="nameLabel" destination="tpk-zs-zM9" id="CTF-Pj-F59"/>
                         <outlet property="saveButtonPressed" destination="ItH-8k-D3v" id="xIO-fp-Zyz"/>
                         <outlet property="weightLabel" destination="foq-K9-Sdv" id="Ek5-OJ-TwC"/>
@@ -311,13 +296,13 @@ grams)</string>
         <scene sceneID="ntq-OD-MHh">
             <objects>
                 <tabBarController id="HFS-Fy-jlH" sceneMemberID="viewController">
-                    <tabBar key="tabBar" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BCv-OY-MqN">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BCv-OY-MqN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.78586179020000002" green="0.33285596969999998" blue="0.2376368046" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="0.78586179020000002" green="0.33285596969999998" blue="0.2376368046" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="barTintColor" red="0.3450102806" green="0.54445207120000005" blue="0.54355537890000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="selectedImageTintColor" red="0.92503875494003296" green="0.54364311695098877" blue="0.22381651401519775" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="1Zn-5i-CzB" kind="relationship" relationship="viewControllers" id="Swp-jO-pCc"/>
@@ -343,13 +328,13 @@ grams)</string>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="99999" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNZ-qd-hcy">
                                         <rect key="frame" x="0.0" y="0.0" width="107" height="29.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.80231380462646484" green="0.4200139045715332" blue="0.33591169118881226" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="per day" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H8J-te-A9m">
                                         <rect key="frame" x="0.0" y="29.5" width="107" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.80231380462646484" green="0.4200139045715332" blue="0.33591169118881226" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -376,8 +361,7 @@ grams)</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.34501028060913086" green="0.54445207118988037" blue="0.54355537891387939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="0.3450102806" green="0.54445207120000005" blue="0.54355537890000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="7Pm-2W-shP"/>
                                     <constraint firstAttribute="width" constant="200" id="8mt-Rm-5EV"/>
@@ -395,13 +379,13 @@ grams)</string>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="77777" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AuH-w8-RN4">
                                         <rect key="frame" x="0.0" y="0.0" width="107" height="29.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.80231380462646484" green="0.4200139045715332" blue="0.33591169118881226" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="consumed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1d-3i-u0s">
                                         <rect key="frame" x="0.0" y="29.5" width="107" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.80231380462646484" green="0.4200139045715332" blue="0.33591169118881226" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -411,7 +395,7 @@ grams)</string>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfc-wJ-nXh">
                                 <rect key="frame" x="107" y="413" width="200" height="70"/>
-                                <color key="backgroundColor" red="0.78586179020000002" green="0.33285596969999998" blue="0.2376368046" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="HAB-uC-qwi"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="ndi-iX-sBz"/>
@@ -422,11 +406,11 @@ grams)</string>
                                 </state>
                                 <connections>
                                     <action selector="buttonClick:" destination="qrL-Mz-gWe" eventType="touchUpInside" id="aB1-m9-WQ8"/>
-                                    <segue destination="Woc-EW-P9w" kind="show" id="V19-AJ-OXg"/>
+                                    <segue destination="Woc-EW-P9w" kind="show" identifier="SearchFoodSegue" id="V19-AJ-OXg"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.959186851978302" green="0.81877189874649048" blue="0.74244189262390137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="kfc-wJ-nXh" firstAttribute="centerX" secondItem="6Fv-fA-LCs" secondAttribute="centerX" id="9YI-NP-sjc"/>
                             <constraint firstItem="f4N-NZ-lqE" firstAttribute="centerX" secondItem="6Fv-fA-LCs" secondAttribute="centerX" id="Amb-WB-caK"/>
@@ -451,6 +435,7 @@ grams)</string>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5ZJ-5i-Hvd" sceneMemberID="firstResponder"/>
+                <exit id="GFo-Fd-aUf" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="192.75362318840581" y="764.73214285714278"/>
         </scene>
@@ -465,7 +450,7 @@ grams)</string>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" red="0.34501028060913086" green="0.54445207118988037" blue="0.54355537891387939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.9646415114402771" green="0.74274265766143799" blue="0.73150652647018433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -491,6 +476,6 @@ grams)</string>
         <image name="Statistics" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="dt8-fT-Fhb"/>
+        <segue reference="Iw0-Rn-g2e"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -24,9 +24,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var ageLabel: UITextField!
     @IBOutlet weak var saveButtonPressed: UIButton!
     
-    
-    @IBOutlet weak var mainStackView: UIStackView!
-    
     private let userHealthProfile = UserHealthProfile()
     
     let healthKitStore:HKHealthStore = HKHealthStore()
@@ -239,8 +236,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         HiddenMessageLabel.text = ""
-        UITabBar.appearance().unselectedItemTintColor = UIColor.white
-   
         
         if(!isAppAlreadyLaunchedOnce()){
             self.authorizeHealthKitinApp()

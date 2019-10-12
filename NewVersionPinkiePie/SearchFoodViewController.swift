@@ -12,7 +12,9 @@ import Foundation
 class SearchFoodViewController: UIViewController {
     
     var savedFoods = [String]()
-
+    
+    let dafaults = UserDefaults.standard
+ 
     @IBOutlet weak var textField: UITextField!
     
     @IBOutlet weak var tableView: UITableView!
@@ -24,35 +26,31 @@ class SearchFoodViewController: UIViewController {
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "PinkiePie search food", style: .plain, target: nil, action: nil)
         tableView.delegate = self
         tableView.dataSource = self
-        
         savedFoods = createArray()
+        
+        
     }
+     let vc = CalculateKcalViewController()
+    
+    
     
     @IBAction func foodClik(_ sender: UIButton){
-        let mainView = MainViewController(nibName: "MainViewController", bundle: nil)
-        mainView.currentFoodName = textField.text!
-        
-        // TODO -> check food with API
-        savedFoods.insert(mainView.currentFoodName, at: 0)
-        //self.performSegue(withIdentifier: "AddKcallSegue", sender: self)
-        
+        let a = self.navigationController?.viewControllers[0] as! MainViewController
+        a.foodName = textField.text!
+        savedFoods.insert(textField.text!, at: 0)
+        dafaults.set(savedFoods, forKey: "FoodArray")
+        self.tableView.reloadData()
     }
     
     func savedFoodClik(_ food: String){
-        let mainView = MainViewController(nibName: "MainViewController", bundle: nil)
-        mainView.currentFoodName = food
-        //self.performSegue(withIdentifier: "AddKcallSegue", sender: self)
+        let a = self.navigationController?.viewControllers[0] as! MainViewController
+        a.foodName = food
     }
-    
-    
+
     func createArray() -> [String]
     {
-        let food1 = "orange"
-        let food2 = "apple"
-        let food3 = "banana"
-        
-        let savedFoods: [String] = [food1, food2, food3]
-        
+        //var savedFoods: [String] = []
+        let savedFoods = dafaults.stringArray(forKey: "FoodArray") ?? [String]()
         return savedFoods
     }
 }
@@ -63,13 +61,11 @@ extension SearchFoodViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let savedFood: String
-        
-        savedFood = savedFoods[indexPath.row]
-        
+        //let savedFood: String
+        print("You have just added \(savedFoods[indexPath.row])")
+        let savedFood = savedFoods[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "FoodsCell") as! FoodCell
         cell.setFood(savedFood)
-        
         return cell
     }
     
