@@ -1,0 +1,212 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FoodCell"
+provides-nominal:
+- "19NewVersionPinkiePie8FoodCellC"
+provides-member:
+- ["19NewVersionPinkiePie8FoodCellC", ""]
+provides-dynamic-lookup:
+- "foodName"
+depends-top-level:
+- "AssignmentPrecedence"
+- "FoodCell"
+- "String"
+- "UILabel"
+- "UITableViewCell"
+depends-member:
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "foodName"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "text"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "foodName"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "text"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "foodName"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s17CustomReflectableP", "text"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "foodName"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["Se", "text"]
+- !private ["SE", "text"]
+- ["SQ", ""]
+- !private ["SQ", "foodName"]
+- !private ["SQ", "init"]
+- !private ["SQ", "text"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- ["19NewVersionPinkiePie8FoodCellC", "String"]
+- ["19NewVersionPinkiePie8FoodCellC", "UILabel"]
+- ["19NewVersionPinkiePie8FoodCellC", "deinit"]
+- ["19NewVersionPinkiePie8FoodCellC", "foodName"]
+- ["19NewVersionPinkiePie8FoodCellC", "init"]
+- ["19NewVersionPinkiePie8FoodCellC", "setFood"]
+- ["SH", ""]
+- !private ["SH", "foodName"]
+- !private ["SH", "init"]
+- !private ["SH", "text"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "foodName"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "text"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "foodName"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "setFood"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "foodName"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "text"]
+- !private ["Sq", "text"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "foodName"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "foodName"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "text"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "foodName"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "foodName"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "foodName"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "text"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "foodName"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "foodName"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "text"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "foodName"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "foodName"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So7UILabelC", "text"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "foodName"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "foodName"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "setFood"]
+- !private ["So11UIResponderC", "text"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "foodName"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- ["So15UITableViewCellC", "String"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", ""]
+- ["So15UITableViewCellC", "foodName"]
+- ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "setFood"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "foodName"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "foodName"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- ["So6UIViewC", "String"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "foodName"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "setFood"]
+- !private ["So6UIViewC", "text"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "foodName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "foodName"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "19NewVersionPinkiePie8FoodCellC"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a38f1e23691739235b3f5c63df405afe"

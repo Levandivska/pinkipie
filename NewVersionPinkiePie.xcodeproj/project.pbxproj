@@ -19,6 +19,7 @@
 		334D199A234B44C200A6BBCD /* ProfileDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334D1999234B44C200A6BBCD /* ProfileDataStore.swift */; };
 		334D199C234B44DC00A6BBCD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334D199B234B44DC00A6BBCD /* MainViewController.swift */; };
 		334D19A0234B455800A6BBCD /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334D199F234B455800A6BBCD /* HealthKit.framework */; };
+		33A44FE72351226F00F6A78A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A44FE62351226F00F6A78A /* LaunchScreen.storyboard */; };
 		3BB5C1CC234FA80800C53E56 /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB5C1CA234FA80800C53E56 /* BalloonMarker.swift */; };
 		3BB5C1CD234FA80800C53E56 /* StatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB5C1CB234FA80800C53E56 /* StatsVC.swift */; };
 		A8C604C80EEC94C8C072017D /* Pods_NewVersionPinkiePie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4B03B4679F3A31F1B9F224 /* Pods_NewVersionPinkiePie.framework */; };
@@ -51,6 +52,7 @@
 		334D199B234B44DC00A6BBCD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		334D199D234B455800A6BBCD /* NewVersionPinkiePie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewVersionPinkiePie.entitlements; sourceTree = "<group>"; };
 		334D199F234B455800A6BBCD /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		33A44FE62351226F00F6A78A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BB5C1CA234FA80800C53E56 /* BalloonMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
 		3BB5C1CB234FA80800C53E56 /* StatsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsVC.swift; sourceTree = "<group>"; };
 		5E4B03B4679F3A31F1B9F224 /* Pods_NewVersionPinkiePie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewVersionPinkiePie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +120,7 @@
 				0F2CB435234CB27A006E79C9 /* SearchFoodViewController.swift */,
 				0F2CB439234E4B30006E79C9 /* CalculateKcalViewController.swift */,
 				F24058A4234E5BF300EEDF82 /* FoodData.swift */,
+				33A44FE62351226F00F6A78A /* LaunchScreen.storyboard */,
 				334D199D234B455800A6BBCD /* NewVersionPinkiePie.entitlements */,
 				F2FB678C23506A6F00F5284B /* ApiRequest.swift */,
 				F2FB679023506AA200F5284B /* FoodInfoStruct.swift */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A44FE72351226F00F6A78A /* LaunchScreen.storyboard in Resources */,
 				334D198D234B41F700A6BBCD /* Assets.xcassets in Resources */,
 				334D1988234B41F200A6BBCD /* Main.storyboard in Resources */,
 			);

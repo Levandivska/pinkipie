@@ -1,0 +1,20 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "dc885ca2539e3e0bd3e34e81cabbad8c"
+build_time: [1570825712, 953723000]
+inputs:
+  "/Users/veronikaromanko/Desktop/Ios_proj/Pinkipie/pinkipie/NewVersionPinkiePie/CoreData/ModelObject/Person+CoreDataClass.swift": [1570750732, 0]
+  "/Users/veronikaromanko/Desktop/Ios_proj/Pinkipie/pinkipie/NewVersionPinkiePie/FoodCell.swift": [1570810116, 982949418]
+  "/Users/veronikaromanko/Desktop/Ios_proj/Pinkipie/pinkipie/NewVersionPinkiePie/FoodData.swift": [1570750732, 0]
+  "/Users/veronikaromanko/Desktop/Ios_proj/Pinkipie/pinkipie/NewVersionPinkiePie/SearchFoodViewController.swift": [1570791754, 0]
+  "/Users/veronikaromanko/Desktop/Ios_proj/Pinkipie/pinkipie/NewVersionPinkiePie/ViewController.swift": [1570805299, 537184461]
+  "/Users/veronikaromanko/Desktop/Ios_proj/Pinkipie/pinkipie/NewVersionPinkiePie/CoreData/ModelObject/Person+CoreDataProperties.swift": [1570750732, 0]
+  "/Users/veronikaromanko/Desktop/Ios_proj/Pinkipie/pinkipie/NewVersionPinkiePie/ProfileDataStore.swift": [1570750732, 0]
+  "/Users/veronikaromanko/Desktop/Ios_proj/Pinkipie/pinkipie/NewVersionPinkiePie/HealthKitSetupAssistant.swift": [1570750732, 0]
+  "/Users/veronikaromanko/Desktop/Ios_proj/Pinkipie/pinkipie/NewVersionPinkiePie/CoreData/ModelObject/DayCalories+CoreDataClass.swift": [1570750732, 0]
+  "/Users/veronikaromanko/Desktop/Ios_proj/Pinkipie/pinkipie/NewVersionPinkiePie/CoreData/ModelObject/DayNutriens+CoreDataProperties.swift": [1570750732, 0]
+  "/Users/veronikaromanko/Desktop/Ios_proj/Pinkipie/pinkipie/NewVersionPinkiePie/CoreData/CoreDataStack.swift": [1570750732, 0]
+  "/Users/veronikaromanko/Desktop/Ios_proj/Pinkipie/pinkipie/NewVersionPinkiePie/MainViewController.swift": [1570791754, 0]
+  "/Users/veronikaromanko/Desktop/Ios_proj/Pinkipie/pinkipie/NewVersionPinkiePie/AppDelegate.swift": [1570750732, 0]
+  "/Users/veronikaromanko/Desktop/Ios_proj/Pinkipie/pinkipie/NewVersionPinkiePie/CalculateKcalViewController.swift": [1570788419, 0]
+  "/Users/veronikaromanko/Desktop/Ios_proj/Pinkipie/pinkipie/NewVersionPinkiePie/CoreData/ModelObject/DayNutriens+CoreDataClass.swift": [1570750732, 0]
+  "/Users/veronikaromanko/Desktop/Ios_proj/Pinkipie/pinkipie/NewVersionPinkiePie/CoreData/ModelObject/DayCalories+CoreDataProperties.swift": [1570750732, 0]

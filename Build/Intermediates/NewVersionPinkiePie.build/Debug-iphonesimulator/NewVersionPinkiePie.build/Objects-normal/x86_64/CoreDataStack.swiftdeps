@@ -1,0 +1,179 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CoreDataStack"
+provides-nominal:
+- "19NewVersionPinkiePie13CoreDataStackC"
+provides-member:
+- ["19NewVersionPinkiePie13CoreDataStackC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CastingPrecedence"
+- "CoreDataStack"
+- "DayCalories"
+- "DayNutriens"
+- !private "NSEntityDescription"
+- "NSError"
+- "NSPersistentContainer"
+- "fatalError"
+depends-member:
+- !private ["s7CVarArgP", "delete"]
+- !private ["s7CVarArgP", "hasChanges"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insertNewObject"]
+- ["s7CVarArgP", "loadPersistentStores"]
+- !private ["s7CVarArgP", "save"]
+- ["s7CVarArgP", "userInfo"]
+- !private ["s7CVarArgP", "viewContext"]
+- ["19NewVersionPinkiePie13CoreDataStackC", "CoreDataStack"]
+- ["19NewVersionPinkiePie13CoreDataStackC", "DayCalories"]
+- ["19NewVersionPinkiePie13CoreDataStackC", "DayNutriens"]
+- !private ["19NewVersionPinkiePie13CoreDataStackC", "NSEntityDescription"]
+- ["19NewVersionPinkiePie13CoreDataStackC", "NSError"]
+- ["19NewVersionPinkiePie13CoreDataStackC", "NSPersistentContainer"]
+- ["19NewVersionPinkiePie13CoreDataStackC", "fatalError"]
+- ["19NewVersionPinkiePie13CoreDataStackC", "init"]
+- ["19NewVersionPinkiePie13CoreDataStackC", "newCalories"]
+- ["19NewVersionPinkiePie13CoreDataStackC", "newNutriens"]
+- !private ["19NewVersionPinkiePie13CoreDataStackC", "persistentContainer"]
+- !private ["19NewVersionPinkiePie13CoreDataStackC", "persistentContainer.storage"]
+- ["19NewVersionPinkiePie13CoreDataStackC", "remove"]
+- ["19NewVersionPinkiePie13CoreDataStackC", "saveContext"]
+- ["19NewVersionPinkiePie13CoreDataStackC", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "delete"]
+- !private ["s28CustomDebugStringConvertibleP", "hasChanges"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insertNewObject"]
+- ["s28CustomDebugStringConvertibleP", "loadPersistentStores"]
+- !private ["s28CustomDebugStringConvertibleP", "save"]
+- ["s28CustomDebugStringConvertibleP", "userInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "viewContext"]
+- ["s23CustomStringConvertibleP", "appendInterpolation"]
+- ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "delete"]
+- !private ["s23CustomStringConvertibleP", "hasChanges"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insertNewObject"]
+- ["s23CustomStringConvertibleP", "loadPersistentStores"]
+- !private ["s23CustomStringConvertibleP", "save"]
+- ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["s23CustomStringConvertibleP", "viewContext"]
+- ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SQ", "delete"]
+- !private ["SQ", "hasChanges"]
+- ["SQ", "init"]
+- !private ["SQ", "insertNewObject"]
+- ["SQ", "loadPersistentStores"]
+- !private ["SQ", "save"]
+- ["SQ", "userInfo"]
+- !private ["SQ", "viewContext"]
+- ["s5ErrorP", "userInfo"]
+- !private ["SH", "delete"]
+- !private ["SH", "hasChanges"]
+- ["SH", "init"]
+- !private ["SH", "insertNewObject"]
+- ["SH", "loadPersistentStores"]
+- !private ["SH", "save"]
+- ["SH", "userInfo"]
+- !private ["SH", "viewContext"]
+- !private ["So8NSCodingP", "delete"]
+- !private ["So8NSCodingP", "hasChanges"]
+- !private ["So8NSCodingP", "insertNewObject"]
+- !private ["So8NSCodingP", "save"]
+- ["So8NSCodingP", "userInfo"]
+- !private ["So9NSCopyingP", "insertNewObject"]
+- ["So9NSCopyingP", "userInfo"]
+- !private ["So19NSEntityDescriptionC", "insertNewObject"]
+- ["So7NSErrorC", "userInfo"]
+- !private ["So17NSFastEnumerationP", "insertNewObject"]
+- !private ["So9NSLockingP", "delete"]
+- !private ["So9NSLockingP", "hasChanges"]
+- !private ["So9NSLockingP", "save"]
+- !private ["So22NSManagedObjectContextC", "delete"]
+- !private ["So22NSManagedObjectContextC", "hasChanges"]
+- !private ["So22NSManagedObjectContextC", "save"]
+- !private ["So8NSObjectC", "delete"]
+- !private ["So8NSObjectC", "hasChanges"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "insertNewObject"]
+- ["So8NSObjectC", "loadPersistentStores"]
+- !private ["So8NSObjectC", "save"]
+- ["So8NSObjectC", "userInfo"]
+- !private ["So8NSObjectC", "viewContext"]
+- !private ["So8NSObjectP", "delete"]
+- !private ["So8NSObjectP", "hasChanges"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "insertNewObject"]
+- ["So8NSObjectP", "loadPersistentStores"]
+- !private ["So8NSObjectP", "save"]
+- ["So8NSObjectP", "userInfo"]
+- !private ["So8NSObjectP", "viewContext"]
+- ["So21NSPersistentContainerC", "init"]
+- ["So21NSPersistentContainerC", "loadPersistentStores"]
+- !private ["So21NSPersistentContainerC", "viewContext"]
+- ["So14NSSecureCodingP", "userInfo"]
+- ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- ["s27StringInterpolationProtocolP", "appendLiteral"]
+- ["s16TextOutputStreamP", "appendInterpolation"]
+- ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delete"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasChanges"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "insertNewObject"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "loadPersistentStores"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewContext"]
+depends-nominal:
+- "s7CVarArgP"
+- "19NewVersionPinkiePie13CoreDataStackC"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s26DefaultStringInterpolationV"
+- "SQ"
+- "s5ErrorP"
+- "SH"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So19NSEntityDescriptionC"
+- "So7NSErrorC"
+- !private "So17NSFastEnumerationP"
+- !private "So9NSLockingP"
+- !private "So22NSManagedObjectContextC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So21NSPersistentContainerC"
+- "So14NSSecureCodingP"
+- "s27StringInterpolationProtocolP"
+- "s16TextOutputStreamP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4c859e327f69e14267a6181b3e91da86"

@@ -1,0 +1,207 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HealthkitSetupAssistant"
+provides-nominal:
+- "19NewVersionPinkiePie23HealthkitSetupAssistantC"
+provides-member:
+- ["19NewVersionPinkiePie23HealthkitSetupAssistantC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Bool"
+- "Error"
+- !private "HKHealthStore"
+- !private "HKObjectType"
+- !private "HKSampleType"
+- "HealthkitSetupAssistant"
+- !private "Set"
+- "Swift"
+depends-member:
+- !private ["s7CVarArgP", "characteristicType"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isHealthDataAvailable"]
+- !private ["s7CVarArgP", "quantityType"]
+- !private ["s7CVarArgP", "requestAuthorization"]
+- !private ["s7CVarArgP", "workoutType"]
+- !private ["s28CustomDebugStringConvertibleP", "characteristicType"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isHealthDataAvailable"]
+- !private ["s28CustomDebugStringConvertibleP", "quantityType"]
+- !private ["s28CustomDebugStringConvertibleP", "requestAuthorization"]
+- !private ["s28CustomDebugStringConvertibleP", "workoutType"]
+- !private ["s23CustomStringConvertibleP", "characteristicType"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isHealthDataAvailable"]
+- !private ["s23CustomStringConvertibleP", "quantityType"]
+- !private ["s23CustomStringConvertibleP", "requestAuthorization"]
+- !private ["s23CustomStringConvertibleP", "workoutType"]
+- ["SQ", "=="]
+- !private ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- !private ["SQ", "activeEnergyBurned"]
+- !private ["SQ", "bodyMass"]
+- !private ["SQ", "characteristicType"]
+- !private ["SQ", "dataTypeNotAvailable"]
+- !private ["SQ", "dateOfBirth"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "height"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isHealthDataAvailable"]
+- !private ["SQ", "notAvailableOnDevice"]
+- !private ["SQ", "quantityType"]
+- !private ["SQ", "requestAuthorization"]
+- !private ["SQ", "workoutType"]
+- ["s5ErrorP", "=="]
+- !private ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "dataTypeNotAvailable"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- !private ["s5ErrorP", "notAvailableOnDevice"]
+- !private ["So30HKCharacteristicTypeIdentifiera", "dateOfBirth"]
+- !private ["So13HKHealthStoreC", "init"]
+- !private ["So13HKHealthStoreC", "isHealthDataAvailable"]
+- !private ["So13HKHealthStoreC", "requestAuthorization"]
+- !private ["So12HKObjectTypeC", "characteristicType"]
+- !private ["So12HKObjectTypeC", "quantityType"]
+- !private ["So12HKObjectTypeC", "workoutType"]
+- !private ["So24HKQuantityTypeIdentifiera", "activeEnergyBurned"]
+- !private ["So24HKQuantityTypeIdentifiera", "bodyMass"]
+- !private ["So24HKQuantityTypeIdentifiera", "height"]
+- ["SH", "=="]
+- !private ["SH", ""]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- !private ["SH", "activeEnergyBurned"]
+- !private ["SH", "bodyMass"]
+- !private ["SH", "characteristicType"]
+- !private ["SH", "dataTypeNotAvailable"]
+- !private ["SH", "dateOfBirth"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "height"]
+- !private ["SH", "init"]
+- !private ["SH", "isHealthDataAvailable"]
+- !private ["SH", "notAvailableOnDevice"]
+- !private ["SH", "quantityType"]
+- !private ["SH", "requestAuthorization"]
+- !private ["SH", "workoutType"]
+- !private ["s6HasherV", "combine"]
+- ["19NewVersionPinkiePie23HealthkitSetupAssistantC", "Bool"]
+- ["19NewVersionPinkiePie23HealthkitSetupAssistantC", "Error"]
+- !private ["19NewVersionPinkiePie23HealthkitSetupAssistantC", "HKHealthStore"]
+- !private ["19NewVersionPinkiePie23HealthkitSetupAssistantC", "HKObjectType"]
+- !private ["19NewVersionPinkiePie23HealthkitSetupAssistantC", "HKSampleType"]
+- !private ["19NewVersionPinkiePie23HealthkitSetupAssistantC", "HealthkitSetupError"]
+- !private ["19NewVersionPinkiePie23HealthkitSetupAssistantC", "Set"]
+- ["19NewVersionPinkiePie23HealthkitSetupAssistantC", "Swift"]
+- ["19NewVersionPinkiePie23HealthkitSetupAssistantC", "authorizeHealthKit"]
+- ["19NewVersionPinkiePie23HealthkitSetupAssistantC", "init"]
+- !private ["So8NSCodingP", "characteristicType"]
+- !private ["So8NSCodingP", "quantityType"]
+- !private ["So8NSCodingP", "workoutType"]
+- !private ["So9NSCopyingP", "characteristicType"]
+- !private ["So9NSCopyingP", "quantityType"]
+- !private ["So9NSCopyingP", "workoutType"]
+- !private ["So8NSObjectC", "characteristicType"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isHealthDataAvailable"]
+- !private ["So8NSObjectC", "quantityType"]
+- !private ["So8NSObjectC", "requestAuthorization"]
+- !private ["So8NSObjectC", "workoutType"]
+- !private ["So8NSObjectP", "characteristicType"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isHealthDataAvailable"]
+- !private ["So8NSObjectP", "quantityType"]
+- !private ["So8NSObjectP", "requestAuthorization"]
+- !private ["So8NSObjectP", "workoutType"]
+- !private ["So14NSSecureCodingP", "characteristicType"]
+- !private ["So14NSSecureCodingP", "quantityType"]
+- !private ["So14NSSecureCodingP", "workoutType"]
+- !private ["SY", "activeEnergyBurned"]
+- !private ["SY", "bodyMass"]
+- !private ["SY", "dateOfBirth"]
+- !private ["SY", "height"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "activeEnergyBurned"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "bodyMass"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "dateOfBirth"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "height"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "characteristicType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHealthDataAvailable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "quantityType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestAuthorization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "workoutType"]
+- !private ["s21_ObjectiveCBridgeableP", "activeEnergyBurned"]
+- !private ["s21_ObjectiveCBridgeableP", "bodyMass"]
+- !private ["s21_ObjectiveCBridgeableP", "dateOfBirth"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s20_SwiftNewtypeWrapperP", "activeEnergyBurned"]
+- !private ["s20_SwiftNewtypeWrapperP", "bodyMass"]
+- !private ["s20_SwiftNewtypeWrapperP", "dateOfBirth"]
+- !private ["s20_SwiftNewtypeWrapperP", "height"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- "SQ"
+- "s5ErrorP"
+- !private "So30HKCharacteristicTypeIdentifiera"
+- !private "So13HKHealthStoreC"
+- !private "So12HKObjectTypeC"
+- !private "So24HKQuantityTypeIdentifiera"
+- "SH"
+- !private "s6HasherV"
+- "19NewVersionPinkiePie23HealthkitSetupAssistantC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "SY"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/HealthKit.framework/Headers/HealthKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6b6f8acd1b9a211bfae5bcd0fff0dc27"
